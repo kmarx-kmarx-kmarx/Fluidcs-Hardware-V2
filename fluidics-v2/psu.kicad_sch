@@ -640,7 +640,7 @@
   (symbol (lib_id "power:GND") (at 19.05 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02deb513-c47d-4f4f-bc57-bfb6c2ffac42)
-    (property "Reference" "#PWR042" (at 19.05 66.04 0)
+    (property "Reference" "#PWR050" (at 19.05 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 19.05 64.77 0)
@@ -656,7 +656,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -665,7 +665,7 @@
   (symbol (lib_id "power:+5V") (at 15.24 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05fea795-c36a-43b4-8307-1d921fc4d3df)
-    (property "Reference" "#PWR035" (at 15.24 35.56 0)
+    (property "Reference" "#PWR043" (at 15.24 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 15.24 26.67 0)
@@ -681,7 +681,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -690,7 +690,7 @@
   (symbol (lib_id "Device:R") (at 80.01 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f4de59c-4d54-424e-87f7-70cc79b316e7)
-    (property "Reference" "R1" (at 81.788 50.9016 0)
+    (property "Reference" "R4" (at 81.788 50.9016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20k" (at 81.788 53.213 0)
@@ -710,7 +710,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "R1") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -724,7 +724,7 @@
   (symbol (lib_id "Device:LED") (at 90.17 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12789a52-0727-42c9-94bf-47680f5bbbd2)
-    (property "Reference" "D3" (at 93.1672 58.6994 90)
+    (property "Reference" "D2" (at 93.1672 58.6994 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 93.1672 61.0108 90)
@@ -747,7 +747,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "D3") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -761,7 +761,7 @@
   (symbol (lib_id "power:+5V") (at 19.05 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b2d064b-d3b9-4a15-a384-e87bdb07e772)
-    (property "Reference" "#PWR040" (at 19.05 55.88 0)
+    (property "Reference" "#PWR048" (at 19.05 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 15.24 49.53 0)
@@ -777,7 +777,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -786,7 +786,7 @@
   (symbol (lib_id "power:GND") (at 80.01 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d56c8d7-a4c4-40b2-8919-e1b936a22413)
-    (property "Reference" "#PWR046" (at 80.01 69.85 0)
+    (property "Reference" "#PWR053" (at 80.01 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.137 67.8942 0)
@@ -802,7 +802,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -816,7 +816,7 @@
   (symbol (lib_id "Device:LED") (at 101.6 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c44a8f4-2289-4e0a-9901-df3ff78ea016)
-    (property "Reference" "D4" (at 104.5972 58.6994 90)
+    (property "Reference" "D3" (at 104.5972 58.6994 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 104.5972 61.0108 90)
@@ -839,7 +839,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "D4") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -853,7 +853,7 @@
   (symbol (lib_id "power:GND") (at 31.75 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3cf0e9f3-3df6-4709-a491-dacfcbc517db)
-    (property "Reference" "#PWR041" (at 31.75 68.58 0)
+    (property "Reference" "#PWR052" (at 31.75 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 31.75 67.31 0)
@@ -869,7 +869,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -904,7 +904,7 @@
   (symbol (lib_id "power:+12V") (at 96.52 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41147bdd-83eb-480a-be13-99a84f79d4f1)
-    (property "Reference" "#PWR038" (at 96.52 29.21 0)
+    (property "Reference" "#PWR039" (at 96.52 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 96.52 20.32 0)
@@ -920,7 +920,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -929,7 +929,7 @@
   (symbol (lib_id "power:GND") (at 40.64 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50e01a8e-4c8a-48bd-8b7b-bf22c2267576)
-    (property "Reference" "#PWR044" (at 40.64 66.04 0)
+    (property "Reference" "#PWR051" (at 40.64 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 64.77 0)
@@ -945,7 +945,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -954,7 +954,7 @@
   (symbol (lib_id "Device:R") (at 90.17 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56a45eaf-813a-4b1a-a69c-eafcbaae88fe)
-    (property "Reference" "R3" (at 91.948 50.9016 0)
+    (property "Reference" "R5" (at 91.948 50.9016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.6k" (at 91.948 53.213 0)
@@ -974,7 +974,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "R3") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1014,7 +1014,7 @@
   (symbol (lib_id "power:+24V") (at 76.2 25.4 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 633ef54a-c82e-4b34-a994-fe4bb58d1443)
-    (property "Reference" "#PWR039" (at 76.2 29.21 0)
+    (property "Reference" "#PWR038" (at 76.2 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 76.2 20.32 0)
@@ -1030,7 +1030,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -1039,7 +1039,7 @@
   (symbol (lib_id "power:+3.3V") (at 40.64 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 644833e2-a776-40d0-ae3d-b569353cd16b)
-    (property "Reference" "#PWR043" (at 40.64 55.88 0)
+    (property "Reference" "#PWR049" (at 40.64 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 40.64 46.99 0)
@@ -1055,7 +1055,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -1064,7 +1064,7 @@
   (symbol (lib_id "pololu:D24V10FX") (at 34.29 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7987896a-447f-4707-9c12-bea678856273)
-    (property "Reference" "U2" (at 27.94 15.24 0)
+    (property "Reference" "U3" (at 27.94 15.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D24V10FX" (at 27.94 17.78 0)
@@ -1084,7 +1084,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -1093,7 +1093,7 @@
   (symbol (lib_id "power:+24V") (at 101.6 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 810b557d-f972-488a-b039-60a3759eccd2)
-    (property "Reference" "#PWR051" (at 101.6 52.07 0)
+    (property "Reference" "#PWR046" (at 101.6 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 101.981 43.8658 0)
@@ -1109,7 +1109,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1123,7 +1123,7 @@
   (symbol (lib_id "power:GND") (at 25.4 29.21 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81b7c9c6-e8ae-4a13-8f76-935f8d1cc409)
-    (property "Reference" "#PWR034" (at 19.05 29.21 0)
+    (property "Reference" "#PWR042" (at 19.05 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 21.59 29.21 90)
@@ -1139,7 +1139,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -1148,7 +1148,7 @@
   (symbol (lib_id "power:GND") (at 96.52 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 863430fe-1a60-44b9-a634-f3fa9c58a6bf)
-    (property "Reference" "#PWR037" (at 96.52 34.29 0)
+    (property "Reference" "#PWR041" (at 96.52 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 33.02 0)
@@ -1164,7 +1164,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -1173,7 +1173,7 @@
   (symbol (lib_id "power:GND") (at 76.2 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8bcab5f7-1676-4948-9443-e0cb67f79c07)
-    (property "Reference" "#PWR036" (at 76.2 34.29 0)
+    (property "Reference" "#PWR040" (at 76.2 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 33.02 0)
@@ -1189,7 +1189,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -1198,7 +1198,7 @@
   (symbol (lib_id "power:GND") (at 101.6 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f484598-6934-4729-b80a-b3658f31e632)
-    (property "Reference" "#PWR052" (at 101.6 69.85 0)
+    (property "Reference" "#PWR055" (at 101.6 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.727 67.8942 0)
@@ -1214,7 +1214,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1228,7 +1228,7 @@
   (symbol (lib_id "Device:R") (at 101.6 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90254ebe-90b7-4d99-85c3-6e27c2e73527)
-    (property "Reference" "R4" (at 103.378 50.9016 0)
+    (property "Reference" "R6" (at 103.378 50.9016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 103.378 53.213 0)
@@ -1248,7 +1248,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "R4") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1299,7 +1299,7 @@
   (symbol (lib_id "pololu:U3V50F24") (at 86.36 26.67 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a573fd9b-e654-4cca-bc62-06a66c99a4be)
-    (property "Reference" "U3" (at 82.55 15.24 0)
+    (property "Reference" "U4" (at 82.55 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "U3V50F24" (at 86.36 17.78 0)
@@ -1318,7 +1318,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "U3") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -1327,7 +1327,7 @@
   (symbol (lib_id "power:GND") (at 111.76 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ace45d7f-7436-4d1c-abd2-7929e1405421)
-    (property "Reference" "#PWR054" (at 111.76 69.85 0)
+    (property "Reference" "#PWR056" (at 111.76 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.887 67.8942 0)
@@ -1343,7 +1343,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1357,7 +1357,7 @@
   (symbol (lib_id "power:+12V") (at 80.01 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b699347e-3161-4c68-a824-8b736dc3ed30)
-    (property "Reference" "#PWR045" (at 80.01 52.07 0)
+    (property "Reference" "#PWR044" (at 80.01 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 77.47 44.45 0)
@@ -1373,7 +1373,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1387,7 +1387,7 @@
   (symbol (lib_id "Regulator_Linear:TLV71209_SOT23-5") (at 31.75 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7a35243-ef8b-4746-a48e-474ff9b94757)
-    (property "Reference" "U4" (at 15.24 45.72 0)
+    (property "Reference" "U5" (at 15.24 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP7366EA-33W5-7" (at 27.94 45.72 0)
@@ -1407,7 +1407,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "U4") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1416,7 +1416,7 @@
   (symbol (lib_id "power:GND") (at 90.17 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9bddcbb-0b1c-43f1-95b6-1f9608bb2df4)
-    (property "Reference" "#PWR050" (at 90.17 69.85 0)
+    (property "Reference" "#PWR054" (at 90.17 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.297 67.8942 0)
@@ -1432,7 +1432,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1446,7 +1446,7 @@
   (symbol (lib_id "power:+12V") (at 20.32 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid caca284f-8c57-4678-bf42-a8abbcf36f99)
-    (property "Reference" "#PWR033" (at 20.32 29.21 0)
+    (property "Reference" "#PWR037" (at 20.32 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 20.32 20.32 0)
@@ -1462,7 +1462,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -1471,7 +1471,7 @@
   (symbol (lib_id "Device:LED") (at 111.76 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ceb52df9-cab9-4bea-b902-a69e7b48b40e)
-    (property "Reference" "D5" (at 114.7572 58.6994 90)
+    (property "Reference" "D4" (at 114.7572 58.6994 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 114.7572 61.0108 90)
@@ -1494,7 +1494,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "D5") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1508,7 +1508,7 @@
   (symbol (lib_id "power:+5V") (at 90.17 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5f24748-3f0d-4ac2-aac9-42a5265fe9e6)
-    (property "Reference" "#PWR049" (at 90.17 52.07 0)
+    (property "Reference" "#PWR045" (at 90.17 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 90.551 43.8658 0)
@@ -1524,7 +1524,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1538,7 +1538,7 @@
   (symbol (lib_id "power:+3.3V") (at 111.76 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebbd8013-e5ba-481d-a5bc-4f288f29b4cf)
-    (property "Reference" "#PWR053" (at 111.76 52.07 0)
+    (property "Reference" "#PWR047" (at 111.76 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 111.76 44.45 0)
@@ -1554,7 +1554,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -1563,7 +1563,7 @@
   (symbol (lib_id "Device:R") (at 111.76 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd3df30d-0acc-4bd9-9a99-8bf1f40c4935)
-    (property "Reference" "R5" (at 113.538 50.9016 0)
+    (property "Reference" "R7" (at 113.538 50.9016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3k" (at 113.538 53.213 0)
@@ -1583,7 +1583,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "R5") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "fluidics - standalone"

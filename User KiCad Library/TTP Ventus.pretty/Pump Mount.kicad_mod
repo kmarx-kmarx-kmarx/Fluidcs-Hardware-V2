@@ -1,0 +1,45 @@
+(footprint "Pump Mount" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 38d7c2cd-7d03-4f7e-af6a-4afdc92495eb)
+  )
+  (fp_text value "Pump Mount" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f6695fc9-d09c-4c3f-9ab1-85ef12164626)
+  )
+  (fp_text user "${REFERENCE}" (at 11.9505 -11.95) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 54331ed5-1082-4d1f-9397-687a68eaa919)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp af06ccc6-9192-4c23-a51e-38e3a532088b)
+  )
+  (fp_text user "${REFERENCE}" (at -11.9505 11.95) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f17305c1-c712-41f9-a56e-58b549ad3ed3)
+  )
+  (fp_circle (center -12.2505 11.95) (end -9.9005 11.95)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp ed4c782b-5a49-48fa-adc3-d110e8380f48))
+  (fp_circle (center 11.6505 -11.95) (end 14.0005 -11.95)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp 38659eec-e084-4e67-a599-1a08fc83f18a))
+  (fp_circle (center -12.2505 11.95) (end -9.6505 11.95)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp fc3ed0ac-5517-4a68-8018-24bca33815f0))
+  (fp_circle (center 11.6505 -11.95) (end 14.2505 -11.95)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 589e5b5c-eb68-4075-a1c3-4cb1d73e93bb))
+  (pad "1" thru_hole circle (at -12.2505 11.95) (size 4.7 4.7) (drill 2.7) (layers "*.Cu" "*.Mask") (tstamp 3afaff97-4acd-4a64-afbe-6dbf1f429270))
+  (pad "1" thru_hole circle (at 11.6505 -11.95) (size 4.7 4.7) (drill 2.7) (layers "*.Cu" "*.Mask") (tstamp df0404fd-fbf6-403b-a875-4524a43a26c2))
+  (group "" (id 573f02e1-2bd1-41e0-b27e-fc85266d7ec1)
+    (members
+      38659eec-e084-4e67-a599-1a08fc83f18a
+      3afaff97-4acd-4a64-afbe-6dbf1f429270
+      54331ed5-1082-4d1f-9397-687a68eaa919
+      589e5b5c-eb68-4075-a1c3-4cb1d73e93bb
+      df0404fd-fbf6-403b-a875-4524a43a26c2
+      ed4c782b-5a49-48fa-adc3-d110e8380f48
+      f17305c1-c712-41f9-a56e-58b549ad3ed3
+      fc3ed0ac-5517-4a68-8018-24bca33815f0
+    )
+  )
+)

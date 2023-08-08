@@ -719,7 +719,7 @@
           (reference "#PWR0118") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -766,7 +766,7 @@
           (reference "C31") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "C37") (unit 1)
+          (reference "C41") (unit 1)
         )
       )
     )
@@ -775,7 +775,7 @@
   (symbol (lib_id "Device:R") (at 49.53 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24d6d611-14c4-430a-b34d-9f23723148d2)
-    (property "Reference" "R41" (at 52.07 127 0)
+    (property "Reference" "R42" (at 52.07 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "102k" (at 52.07 129.54 0)
@@ -792,7 +792,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "R41") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -820,7 +820,7 @@
           (reference "#PWR0124") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR0133") (unit 1)
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
@@ -863,7 +863,7 @@
           (reference "#PWR0118") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR0136") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -906,7 +906,7 @@
           (reference "#PWR0118") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -953,7 +953,7 @@
           (reference "C32") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "C36") (unit 1)
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -996,7 +996,7 @@
           (reference "#PWR0118") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR0137") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -1043,7 +1043,7 @@
           (reference "C32") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "C34") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -1071,7 +1071,7 @@
           (reference "#PWR0124") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR0138") (unit 1)
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -1080,7 +1080,7 @@
   (symbol (lib_id "Device:R") (at 153.67 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60dd5616-fdd5-4dfe-b851-1d06d5995070)
-    (property "Reference" "R38" (at 156.21 119.38 0)
+    (property "Reference" "R39" (at 156.21 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 156.21 121.92 0)
@@ -1097,7 +1097,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "R38") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -1140,7 +1140,7 @@
           (reference "#PWR0118") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -1183,7 +1183,7 @@
           (reference "#PWR0118") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR0135") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -1211,7 +1211,7 @@
           (reference "#PWR0124") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -1220,7 +1220,7 @@
   (symbol (lib_id "Device:R") (at 40.64 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d366fce-41db-453b-901a-aed2bc33ecbc)
-    (property "Reference" "R40" (at 43.18 127 0)
+    (property "Reference" "R41" (at 43.18 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "976k" (at 43.18 129.54 0)
@@ -1237,7 +1237,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "R40") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -1284,7 +1284,7 @@
           (reference "C31") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "C33") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -1312,7 +1312,7 @@
           (reference "#PWR0124") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -1359,7 +1359,7 @@
           (reference "C32") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "C38") (unit 1)
+          (reference "C42") (unit 1)
         )
       )
     )
@@ -1387,7 +1387,7 @@
           (reference "#PWR030") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -1396,7 +1396,7 @@
   (symbol (lib_id "Device:R") (at 165.1 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac2d7b8c-5fd3-4f94-9f3e-104c00f6b349)
-    (property "Reference" "R39" (at 167.64 121.92 0)
+    (property "Reference" "R40" (at 167.64 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 167.64 124.46 0)
@@ -1413,7 +1413,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "R39") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -1422,7 +1422,7 @@
   (symbol (lib_id "Device:R") (at 40.64 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7dead0f-2866-44a5-9086-5cca9ba2bff7)
-    (property "Reference" "R42" (at 43.18 142.24 0)
+    (property "Reference" "R43" (at 43.18 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 43.18 144.78 0)
@@ -1439,7 +1439,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "R42") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -1467,7 +1467,7 @@
           (reference "#PWR010") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -1476,7 +1476,7 @@
   (symbol (lib_id "LTC4316CMS:LTC4316CMS-TRPBF") (at 66.04 129.54 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2358c60-4ef7-451d-aa64-fac1b2e29a58)
-    (property "Reference" "U7" (at 101.6 109.22 0)
+    (property "Reference" "U10" (at 101.6 109.22 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "LTC4316CMS-TRPBF" (at 101.6 111.76 0)
@@ -1501,7 +1501,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "U7") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -1544,7 +1544,7 @@
           (reference "#PWR0118") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
       )
     )
@@ -1553,7 +1553,7 @@
   (symbol (lib_id "Device:R") (at 49.53 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c3f43524-8f8c-44df-9256-fcd95617c34d)
-    (property "Reference" "R43" (at 52.07 142.24 0)
+    (property "Reference" "R44" (at 52.07 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "280k" (at 52.07 144.78 0)
@@ -1570,7 +1570,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "R43") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -1617,7 +1617,7 @@
           (reference "C31") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "C35") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )
@@ -1626,7 +1626,7 @@
   (symbol (lib_id "honeywell:HSCMAND060PA3A3") (at 219.71 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3566831-1b8f-4bdc-9c83-19e4445420a4)
-    (property "Reference" "IC6" (at 219.71 74.93 0)
+    (property "Reference" "IC7" (at 219.71 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "HSCMAND060PA3A3" (at 219.71 77.47 0)
@@ -1667,7 +1667,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "IC6") (unit 1)
+          (reference "IC7") (unit 1)
         )
       )
     )
@@ -1714,7 +1714,7 @@
           (reference "J5") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "J5") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -1742,7 +1742,7 @@
           (reference "#PWR0124") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
       )
     )
@@ -1770,7 +1770,7 @@
           (reference "#PWR07") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -1798,7 +1798,7 @@
           (reference "#PWR0124") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
     )

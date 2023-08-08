@@ -350,7 +350,7 @@
   (symbol (lib_id "power:+3.3V") (at 105.41 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06d3f1e1-6482-4a10-ac59-acdd80041a90)
-    (property "Reference" "#PWR061" (at 105.41 64.77 0)
+    (property "Reference" "#PWR063" (at 105.41 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 105.41 55.88 0)
@@ -366,19 +366,19 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/1635dc22-cf85-48b0-a673-3d61b2a25da0"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/863d1dad-a813-4142-8d73-a9c37b733ad1"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/16736554-dbd7-4f94-9334-fd0e1d29f526"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -387,7 +387,7 @@
   (symbol (lib_id "power:GND") (at 95.25 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 074e1ad7-e78d-409e-841f-29ee9580dde7)
-    (property "Reference" "#PWR064" (at 95.25 74.93 0)
+    (property "Reference" "#PWR065" (at 95.25 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 73.66 0)
@@ -403,19 +403,19 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/1635dc22-cf85-48b0-a673-3d61b2a25da0"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/863d1dad-a813-4142-8d73-a9c37b733ad1"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/16736554-dbd7-4f94-9334-fd0e1d29f526"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -465,7 +465,7 @@
   (symbol (lib_id "power:GND") (at 110.49 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 133806a0-b7c4-47b5-b18f-1c27fc64c2ce)
-    (property "Reference" "#PWR063" (at 110.49 85.09 0)
+    (property "Reference" "#PWR067" (at 110.49 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 110.49 83.82 0)
@@ -481,19 +481,19 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/1635dc22-cf85-48b0-a673-3d61b2a25da0"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/863d1dad-a813-4142-8d73-a9c37b733ad1"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/16736554-dbd7-4f94-9334-fd0e1d29f526"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -502,7 +502,7 @@
   (symbol (lib_id "power:+5V") (at 144.78 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14b2bce9-7322-46a3-8c0e-3cc0e64ddbe2)
-    (property "Reference" "#PWR062" (at 144.78 64.77 0)
+    (property "Reference" "#PWR064" (at 144.78 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 144.78 55.88 0)
@@ -518,7 +518,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
           (reference "#PWR069") (unit 1)
@@ -539,7 +539,7 @@
   (symbol (lib_id "power:GND") (at 154.94 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22563548-69a4-4d43-a8bb-06caa5444832)
-    (property "Reference" "#PWR065" (at 154.94 74.93 0)
+    (property "Reference" "#PWR066" (at 154.94 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 73.66 0)
@@ -555,19 +555,19 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/1635dc22-cf85-48b0-a673-3d61b2a25da0"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/863d1dad-a813-4142-8d73-a9c37b733ad1"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/16736554-dbd7-4f94-9334-fd0e1d29f526"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -617,19 +617,19 @@
           (reference "IC2") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "IC7") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
           (reference "IC2") (unit 1)
         )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/1635dc22-cf85-48b0-a673-3d61b2a25da0"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
           (reference "IC3") (unit 1)
         )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/863d1dad-a813-4142-8d73-a9c37b733ad1"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/1635dc22-cf85-48b0-a673-3d61b2a25da0"
           (reference "IC4") (unit 1)
         )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/16736554-dbd7-4f94-9334-fd0e1d29f526"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/863d1dad-a813-4142-8d73-a9c37b733ad1"
           (reference "IC5") (unit 1)
+        )
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/16736554-dbd7-4f94-9334-fd0e1d29f526"
+          (reference "IC6") (unit 1)
         )
       )
     )
@@ -658,7 +658,7 @@
           (reference "C4") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "C6") (unit 1)
+          (reference "C5") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
           (reference "C9") (unit 1)
@@ -699,7 +699,7 @@
           (reference "C3") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "C7") (unit 1)
+          (reference "C6") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
           (reference "C10") (unit 1)
@@ -740,7 +740,7 @@
           (reference "C4") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "C5") (unit 1)
+          (reference "C7") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
           (reference "C11") (unit 1)
