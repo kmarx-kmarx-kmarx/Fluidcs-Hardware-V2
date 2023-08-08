@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4515DO-DS3BK005DP
+D Board Mount Pressure Sensors PRESS XDCR,DIGITAL,INH20 RANGE
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS4515DO&DocType=Data+Sheet&DocLang=English&PartCntxt=4515DO-DS3BK005DP&DocFormat=pdf
+$ENDCMP
+#
+$CMP SM9541-100C-D-C-3-S
+D Board Mount Pressure Sensors Digital Differential Sensor 100cmH2O
+F https://mouser.componentsearchengine.com/Datasheets/1/SM9541-100C-D-C-3-S.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCZ33996EKR2
+D Power Switch ICs - Power Distribution 16 LOW SIDE SW 1.20HM
+F http://www.nxp.com/docs/en/data-sheet/MC33996.pdf
+$ENDCMP
+#
+$CMP PCA9615DPJ
+D NXP - PCA9615DPJ - BUFFER, DIFFERENTIAL I2C-BUS, TSSOP-10
+F http://www.nxp.com/docs/en/data-sheet/PCA9615.pdf
+$ENDCMP
+#
+#End Doc Library

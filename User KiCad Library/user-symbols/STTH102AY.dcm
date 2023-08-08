@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STTH102AY
+D Diodes - General Purpose, Power, Switching Auto Hi efficiency 1A 200V 0.78VF 20ns
+K
+F https://componentsearchengine.com/Datasheets/1/STTH102AY.pdf
+$ENDCMP
+#
+#End Doc Library

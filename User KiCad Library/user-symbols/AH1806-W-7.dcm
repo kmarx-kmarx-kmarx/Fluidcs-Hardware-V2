@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AH1806-W-7
+D DiodesZetex AH1806-W-7, Omnipolar Hall Effect Sensor Switch 3-Pin SC-59, 2.5  5.5 V
+K
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+#End Doc Library

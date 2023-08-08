@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BTS3410G
+D Smart Low-Side Power Switch Logic SOIC8 BTS3410G, Intelligent Power Switch Low Side Switch, 1.65A, -0.2  10V, 4-channel, 8-Pin, PG-DSO-8-25
+K
+F https://componentsearchengine.com/Datasheets/1/BTS3410G.pdf
+$ENDCMP
+#
+#End Doc Library

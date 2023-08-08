@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX3221CPWR
+D 3-V to 5.5-V Single-Channel RS-232 Line Driver/Receiver
+K
+F http://www.ti.com/lit/gpn/max3221
+$ENDCMP
+#
+#End Doc Library

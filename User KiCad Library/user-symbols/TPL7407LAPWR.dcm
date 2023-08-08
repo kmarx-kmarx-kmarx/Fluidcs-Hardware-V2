@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPL7407LAPWR
+D 30-V, 7-Channel NMOS Array Low-Side Driver
+K
+F http://www.ti.com/lit/gpn/tpl7407la
+$ENDCMP
+#
+#End Doc Library

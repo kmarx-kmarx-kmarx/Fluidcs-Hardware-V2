@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9615DPJ
+D NXP - PCA9615DPJ - BUFFER, DIFFERENTIAL I2C-BUS, TSSOP-10
+K
+F http://www.nxp.com/docs/en/data-sheet/PCA9615.pdf
+$ENDCMP
+#
+#End Doc Library

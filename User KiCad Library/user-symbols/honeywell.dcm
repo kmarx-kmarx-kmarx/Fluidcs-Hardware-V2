@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HSCMAND060PA3A3
+D Board Mount Pressure Sensors SMT,Single Ax Barbed Absolute, 3.3V
+F https://sensing.honeywell.com/honeywell-sensing-trustability-hsc-series-high-accuracy-board-mount-pressure-sensors-50099148-a-en.pdf
+$ENDCMP
+#
+$CMP HSCMRRN060MDSA3
+D Board Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3V
+F https://componentsearchengine.com/Datasheets/1/HSCMRRN060MDSA3.pdf
+$ENDCMP
+#
+#End Doc Library

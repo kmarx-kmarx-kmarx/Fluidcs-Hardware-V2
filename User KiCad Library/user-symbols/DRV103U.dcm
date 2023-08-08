@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV103U
+D Driver 1.5A 1-OUT Low Side 8-Pin SOIC Tube
+K
+F https://www.ti.com/lit/gpn/DRV103
+$ENDCMP
+#
+#End Doc Library

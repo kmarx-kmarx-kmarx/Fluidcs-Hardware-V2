@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC4312IMS#PBF
+D Multiplexer Switch ICs Pin-Sel, 2-Ch, 2-Wire Multxer w/ Bus Buf
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4312f.pdf
+$ENDCMP
+#
+#End Doc Library

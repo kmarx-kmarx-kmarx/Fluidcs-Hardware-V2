@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SM03B-SURS-TF_LF__SN_
+D CONN HEADER SMD R/A 3POS 0.8MM
+K
+F https://datasheet.lcsc.com/szlcsc/JST-Sales-America-SM03B-SURS-TF-LF-SN_C265338.pdf
+$ENDCMP
+#
+#End Doc Library

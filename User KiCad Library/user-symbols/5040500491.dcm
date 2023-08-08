@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 5040500491
+D CONN HEADER SMD R/A 4POS 1.5MM
+K
+F https://www.molex.com/pdm_docs/sd/5040500691_sd.pdf
+$ENDCMP
+#
+#End Doc Library

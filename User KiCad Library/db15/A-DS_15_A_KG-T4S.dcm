@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A-DS_15_A_KG-T4S
+D CONN D-SUB PLUG 15POS R/A SOLDER
+K
+F http://www.assmann-wsw.com/fileadmin/datasheets/ASS_4888_CO.pdf
+$ENDCMP
+#
+#End Doc Library

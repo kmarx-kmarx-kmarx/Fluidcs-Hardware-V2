@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M50-3030442
+D Headers & Wire Housings 4 WAY SIL VERT PC TAIL SKT
+F https://www.mouser.in/datasheet/2/181/M50-303-1100763.pdf
+$ENDCMP
+#
+$CMP M50-3030542
+D Headers & Wire Housings
+F https://www.mouser.com/datasheet/2/181/M50-303-1100763.pdf
+$ENDCMP
+#
+$CMP M50-3031042
+D Headers & Wire Housings 10 WAY SIL VERT PC TAIL SKT
+F https://cdn.harwin.com/pdfs/M50-303.pdf
+$ENDCMP
+#
+$CMP M50-3530442
+D Headers & Wire Housings 4 WAY SIL VERT PC TAIL P/HDR
+F https://cdn.harwin.com/pdfs/M50-353.pdf
+$ENDCMP
+#
+#End Doc Library

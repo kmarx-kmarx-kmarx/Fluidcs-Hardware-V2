@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1814650
+D Term Block 4W 2.5mm P SMD 6A 32V Horiz
+F https://www.phoenixcontact.com/online/portal/in?uri=pxc-oc-itemdetail:pid=1814650&library=inen&tab=1
+$ENDCMP
+#
+$CMP 1814728
+D PTSM 0,5/ 4-2,5-V SMD WH 2.5mm 4way
+F http://uk.rs-online.com/web/p/products/8020077
+$ENDCMP
+#
+$CMP 1848642
+D Pluggable Terminal Blocks SDDC 1,5/ 2-PV-3,5
+F https://www.phoenixcontact.com/online/portal/gb/?uri=pxc-oc-itemdetail:pid=1848642&library=gben&pcck=P-11-02-11&tab=1&selectedCategory=ALL
+$ENDCMP
+#
+$CMP 1848697
+D Pluggable Terminal Blocks SDDC 1,5/ 7-PV-3,5
+F https://www.phoenixcontact.com/online/portal/gb/?uri=pxc-oc-itemdetail:pid=1848697&amp;library=gben&amp;pcck=P-11-02-11&amp;tab=1&amp;selectedCategory=ALL
+$ENDCMP
+#
+$CMP 1848781
+D Pluggable Terminal Blocks SDDC 1,5/ 16-PV-3,5
+F https://www.phoenixcontact.com/online/portal/gb/?uri=pxc-oc-itemdetail:pid=1848781&library=gben&pcck=P-11-02-11&tab=1&selectedCategory=ALL
+$ENDCMP
+#
+$CMP SM03B-SURS-TF_LF__SN_
+D CONN HEADER SMD R/A 3POS 0.8MM
+F https://datasheet.lcsc.com/szlcsc/JST-Sales-America-SM03B-SURS-TF-LF-SN_C265338.pdf
+$ENDCMP
+#
+#End Doc Library

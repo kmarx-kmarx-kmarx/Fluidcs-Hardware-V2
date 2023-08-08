@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC4311
+D LTC4311,I2C/SMBUS Accelerator,SC70-6 Linear Technology LTC4311CSC6#TRMPBF, Quad, Bus Buffer, 1.6  5.5 V, 6-Pin SC-70
+K
+F http://cds.linear.com/docs/en/datasheet/4311fa.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ADUM1250WSRZ-RL7
+#
+DEF ADUM1250WSRZ-RL7 IC 0 30 Y Y 1 F N
+F0 "IC" 400 450 50 H V L CNN
+F1 "ADUM1250WSRZ-RL7" 400 350 50 H V L CNN
+F2 "SOIC127P600X175-8N" 400 250 50 H I L CNN
+F3 "http://componentsearchengine.com/Datasheets/1/ADUM1250WSRZ-RL7.pdf" 400 150 50 H I L CNN
+F4 "Hot Swappable, Dual I2C Isolators" 400 50 50 H I L CNN "Description"
+F5 "1.75" 400 -50 50 H I L CNN "Height"
+F6 "Analog Devices" 400 -150 50 H I L CNN "Manufacturer_Name"
+F7 "ADUM1250WSRZ-RL7" 400 -250 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-ADUM1250WSRZ-RL7" 400 -350 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADUM1250WSRZ-RL7/?qs=sMtB33eOQTJRIOs0CE6oyQ%3D%3D" 400 -450 50 H I L CNN "Mouser Price/Stock"
+F10 "ADUM1250WSRZ-RL7" 400 -550 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/adum1250wsrz-rl7/analog-devices" 400 -650 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 -350 250 350 250 350 -250 -350 -250 -350 250 N
+X VDD1 1 -550 150 200 R 50 50 0 0 P
+X SDA1 2 -550 50 200 R 50 50 0 0 P
+X SCL1 3 -550 -50 200 R 50 50 0 0 P
+X GND1 4 -550 -150 200 R 50 50 0 0 P
+X GND2 5 550 -150 200 L 50 50 0 0 P
+X SCL2 6 550 -50 200 L 50 50 0 0 P
+X SDA2 7 550 50 200 L 50 50 0 0 P
+X VDD2 8 550 150 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

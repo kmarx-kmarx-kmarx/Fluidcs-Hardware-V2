@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model HSCMRRN060MDSA3
+#/1912806/407012/2.49/8/4/Connector
+DEF HSCMRRN060MDSA3 J 0 30 Y Y 1 F N
+F0 "J" 1150 300 50 H V L CNN
+F1 "HSCMRRN060MDSA3" 1150 200 50 H V L CNN
+F2 "HSCMRRN060MDSA3" 1150 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/HSCMRRN060MDSA3.pdf" 1150 0 50 H I L CNN
+F4 "Board Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3V" 1150 -100 50 H I L CNN "Description"
+F5 "6.77" 1150 -200 50 H I L CNN "Height"
+F6 "Honeywell" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "HSCMRRN060MDSA3" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "785-HSCMRRN060MDSA3" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Honeywell/HSCMRRN060MDSA3?qs=4indQ9AG%252BqE%2FjG9safWZIw%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "HSCMRRN060MDSA3" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/hscmrrn060mdsa3/honeywell" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND 1 0 0 200 R 50 50 0 0 P
+X VSUPPLY 2 0 -100 200 R 50 50 0 0 P
+X MISO 3 0 -200 200 R 50 50 0 0 P
+X SCLK 4 0 -300 200 R 50 50 0 0 P
+X SS 5 1300 -300 200 L 50 50 0 0 P
+X NC_1 6 1300 -200 200 L 50 50 0 0 P
+X NC_2 7 1300 -100 200 L 50 50 0 0 P
+X NC_3 8 1300 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMUX154EDGSR
+D ESD-Protected, 2-Channel, 2:1 Switch, With Powered-off Protection
+K
+F http://www.ti.com/lit/gpn/tmux154e
+$ENDCMP
+#
+#End Doc Library
