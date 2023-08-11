@@ -326,6 +326,11 @@
     (uuid b7834fc6-5d93-42ce-8aa5-d0103d206b65)
   )
 
+  (text "find IC that lists uart as an application\n" (at 111.76 87.63 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 83224ee9-b887-4334-a296-d26f4f168bd8)
+  )
+
   (hierarchical_label "RX_3.3" (shape input) (at 110.49 73.66 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1e68f9a3-aca8-47af-84b1-1cb756f61147)
@@ -582,7 +587,7 @@
     (property "Value" "PI4ULS5V202UEX" (at 124.46 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MAX232:SOP65P640X120-16N" (at 134.62 166.04 0)
+    (property "Footprint" "uart_lvlshift:SOP65P490X110-8N" (at 134.62 166.04 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/PI4ULS5V202.pdf" (at 134.62 266.04 0)

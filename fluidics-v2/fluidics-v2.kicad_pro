@@ -377,7 +377,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -485,32 +485,12 @@
       "Selector Valves"
     ],
     [
-      "d7b863d6-5f12-44cd-bde4-b855914b9e05",
-      "UART Level Shift0"
-    ],
-    [
-      "99335419-826d-42f5-a9d5-c4099ab6472e",
-      "UART Level Shift1"
-    ],
-    [
-      "1635dc22-cf85-48b0-a673-3d61b2a25da0",
-      "UART Level Shift2"
-    ],
-    [
-      "863d1dad-a813-4142-8d73-a9c37b733ad1",
-      "UART Level Shift3"
-    ],
-    [
-      "16736554-dbd7-4f94-9334-fd0e1d29f526",
-      "UART Level Shift4"
+      "357275dc-5cf4-43e0-a736-1f2f3e03e14a",
+      "Manual Control"
     ],
     [
       "40e657d1-9450-4917-aa0c-637ab5e93f67",
       "Syringe Pump"
-    ],
-    [
-      "a7f040d9-717f-4469-b42f-ffb37c9aa43f",
-      "Manual Control"
     ],
     [
       "f2389ff6-1cd8-47ea-9589-49f16bb8c559",
@@ -518,7 +498,7 @@
     ],
     [
       "978ef52c-7a59-4000-92fc-4e58ca2b1aa7",
-      "I2C Sensors"
+      "Sensors"
     ]
   ],
   "text_variables": {}

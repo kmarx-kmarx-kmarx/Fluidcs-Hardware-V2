@@ -885,7 +885,6 @@
 
   (no_connect (at 106.68 133.35) (uuid 05074006-2966-4711-86bd-bf4c5269aa91))
   (no_connect (at 205.74 91.44) (uuid 2de93003-ced0-4a2f-97ec-285366d01eee))
-  (no_connect (at 205.74 93.98) (uuid 4e39486f-e5ef-4e7b-92f7-d37af1240d51))
   (no_connect (at 106.68 125.73) (uuid febbfa25-e145-4c4e-83f9-01193a139b7c))
 
   (wire (pts (xy 204.47 33.02) (xy 204.47 30.48))
@@ -1148,6 +1147,10 @@
     (stroke (width 0) (type default))
     (uuid d92339d5-0a86-4977-9863-ade051b8e5d1)
   )
+  (wire (pts (xy 50.8 180.34) (xy 67.31 180.34))
+    (stroke (width 0) (type default))
+    (uuid dbbf33b3-f774-4bfb-9c45-d4720aa1d714)
+  )
   (wire (pts (xy 35.56 49.53) (xy 35.56 60.96))
     (stroke (width 0) (type default))
     (uuid dd82b802-3df1-4912-a85f-837faa0a3d49)
@@ -1189,7 +1192,7 @@
     (uuid fcc27edd-8145-4cc0-aa49-53d0fd682346)
   )
 
-  (rectangle (start 15.24 16.51) (end 109.22 171.45)
+  (rectangle (start 15.24 16.51) (end 109.22 195.58)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 226d1805-a670-4230-979c-f3951af83e93)
@@ -1228,6 +1231,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8c6767a6-633d-41eb-a067-2c70baf9e187)
   )
+  (text "Pressure/Vacuum selector (sets valves 1/4 to either be both on or both off)"
+    (at 26.67 191.77 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d3d21f39-8bb2-4bf3-a175-97f19cfa3d36)
+  )
   (text "Potentiometer for manual pump control" (at 203.2 44.45 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fa766702-80e2-4a7b-a7d9-ec1b9a408399)
@@ -1264,6 +1272,10 @@
   (label "SW3" (at 144.78 96.52 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 47d49913-df5f-43ae-a2cb-d82357cb377a)
+  )
+  (label "SW14" (at 50.8 180.34 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 48c999e0-4821-4843-8a4c-9c0c280d97ab)
   )
   (label "SW6" (at 64.77 101.6 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1320,6 +1332,10 @@
   (label "SW12" (at 50.8 133.35 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c3dd508a-7246-4acc-9bb9-c515240aac80)
+  )
+  (label "SW14" (at 205.74 93.98 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c932e86d-be5d-4e9c-a9f6-574a301a6ec6)
   )
   (label "SW3" (at 69.85 81.28 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1386,7 +1402,7 @@
     (pin "2" (uuid 249b48fc-daf7-4b67-ac3d-eb6dbb409eab))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R35") (unit 1)
         )
       )
@@ -1411,8 +1427,8 @@
     (pin "1" (uuid 2a84dc90-dbac-439c-8641-455f36f3bf21))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0113") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -1436,8 +1452,8 @@
     (pin "1" (uuid f0660789-4e09-48ea-bc18-1a54625f5c3b))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0108") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -1461,8 +1477,8 @@
     (pin "1" (uuid 640221db-13ea-48ef-ba00-d1a3988c76db))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0116") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -1486,8 +1502,8 @@
     (pin "1" (uuid e5bc749c-3c59-4756-acfd-4850d9d6f7ec))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0120") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -1512,7 +1528,7 @@
     (pin "2" (uuid e25c1483-bc65-42d7-9557-c7f0cf374a35))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R24") (unit 1)
         )
       )
@@ -1537,8 +1553,8 @@
     (pin "1" (uuid beb62a18-f5bb-40b5-9f40-0f7e00ada2ff))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0109") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -1562,8 +1578,8 @@
     (pin "1" (uuid 74bb6641-e1ec-4c9b-b7d3-dfb5b17f5c07))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0107") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -1588,7 +1604,7 @@
     (pin "2" (uuid f3a3f2a0-0f2e-4818-9c75-0ce7f4bc25cb))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R34") (unit 1)
         )
       )
@@ -1613,8 +1629,8 @@
     (pin "1" (uuid 2ef9497e-8e3f-4821-9f86-7b80077fcfd5))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0119") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -1638,8 +1654,8 @@
     (pin "1" (uuid 3a92a506-ed87-4604-9274-240db368b574))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR099") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -1664,7 +1680,7 @@
     (pin "2" (uuid 36580fd5-7a2d-41c0-9496-5dcf25a83224))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R38") (unit 1)
         )
       )
@@ -1717,7 +1733,7 @@
     (pin "MH2" (uuid 2ff091ec-d506-4930-9bb2-bfde55be1cf9))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "VR1") (unit 1)
         )
       )
@@ -1743,7 +1759,7 @@
     (pin "2" (uuid 4ef231dc-d5b8-4cb4-9a5d-0aff2a866957))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R25") (unit 1)
         )
       )
@@ -1769,7 +1785,7 @@
     (pin "2" (uuid 983d8109-1604-4523-a690-25a6f2d1e775))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R31") (unit 1)
         )
       )
@@ -1794,8 +1810,8 @@
     (pin "1" (uuid 888effed-78c3-4a65-98df-7ff2567c625e))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0118") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -1820,7 +1836,7 @@
     (pin "2" (uuid 88432deb-9d19-4a2c-bbcc-28c26654a298))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R37") (unit 1)
         )
       )
@@ -1846,7 +1862,7 @@
     (pin "2" (uuid b89012a0-3d12-4df8-99c2-fcabba054fc9))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R30") (unit 1)
         )
       )
@@ -1871,8 +1887,8 @@
     (pin "1" (uuid ebfb49e0-bfc1-49f3-8fbe-e55519c73fe4))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0103") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -1896,8 +1912,8 @@
     (pin "1" (uuid 3d421a13-0b86-4c72-8b16-7d213bb98b00))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0115") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -1922,7 +1938,7 @@
     (pin "2" (uuid 8e68c60a-ab95-4d4b-bf4d-9135ab564a51))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R27") (unit 1)
         )
       )
@@ -1947,8 +1963,33 @@
     (pin "1" (uuid af7434cc-4efc-42cc-83be-d9169a949951))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0106") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR085") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 67.31 182.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5a0aea97-52fe-45b5-8ca5-9115a5b7b063)
+    (property "Reference" "#PWR0153" (at 67.31 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 67.31 187.96 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 67.31 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 67.31 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8615762d-dfd7-4fed-8143-fc835fd8ded3))
+    (instances
+      (project "fluidics-v2"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -1973,7 +2014,7 @@
     (pin "2" (uuid 194c7003-6889-49de-9192-37496a0cd29c))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R32") (unit 1)
         )
       )
@@ -1998,8 +2039,8 @@
     (pin "1" (uuid 7f79bae3-6903-46df-97f3-7b89d789ba3e))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0112") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -2023,8 +2064,8 @@
     (pin "1" (uuid 516a1ad3-270b-40f9-bcc3-58f958e58e60))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR096") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -2048,8 +2089,8 @@
     (pin "1" (uuid 3ec639b6-337b-4235-b845-1ca7cf66df54))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0122") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -2073,8 +2114,8 @@
     (pin "1" (uuid 1bdf95bc-c84a-41e5-82f4-79f23cd067f7))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0124") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -2102,23 +2143,8 @@
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
           (reference "C4") (unit 1)
         )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "C6") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
-          (reference "C9") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/1635dc22-cf85-48b0-a673-3d61b2a25da0"
-          (reference "C13") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/863d1dad-a813-4142-8d73-a9c37b733ad1"
-          (reference "C17") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/16736554-dbd7-4f94-9334-fd0e1d29f526"
-          (reference "C21") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "C31") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2142,8 +2168,8 @@
     (pin "1" (uuid 1d0a76cc-7dd2-4843-9c43-ff9aec3b9978))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0105") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -2167,8 +2193,8 @@
     (pin "1" (uuid 5fedf769-d24f-494e-887d-71d20f16365b))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0100") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -2192,8 +2218,8 @@
     (pin "1" (uuid 3d5db80d-5d3c-42ef-8815-4cd8ecb6d465))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0101") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -2217,8 +2243,8 @@
     (pin "1" (uuid 788fde05-e8f8-47f4-bbeb-991ede843798))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0117") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -2242,8 +2268,8 @@
     (pin "1" (uuid 5394ce1d-648b-4138-a8f1-73c5fc0792cf))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0110") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -2293,7 +2319,7 @@
     (pin "9" (uuid eaa68bfe-d74e-491c-af3f-6c6e002d6680))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "S2") (unit 1)
         )
       )
@@ -2318,8 +2344,8 @@
     (pin "1" (uuid 94a69065-b999-478e-89f6-ed8997064474))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0121") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -2343,8 +2369,8 @@
     (pin "1" (uuid 1fe9c1ec-be5d-4ed5-b032-673707d7605f))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0123") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -2368,8 +2394,8 @@
     (pin "1" (uuid 9a363a4a-ec58-4563-b188-8177c50c665c))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0111") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -2419,7 +2445,7 @@
     (pin "9" (uuid a693b337-f53a-4d61-b414-553708e30170))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "S1") (unit 1)
         )
       )
@@ -2445,7 +2471,7 @@
     (pin "2" (uuid 236f3bda-749b-4619-9590-dc42048d7676))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R29") (unit 1)
         )
       )
@@ -2471,7 +2497,7 @@
     (pin "2" (uuid 28e61277-2b42-4e23-b567-66f6a30449b0))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R36") (unit 1)
         )
       )
@@ -2519,7 +2545,7 @@
     (pin "9" (uuid 0cb18e2f-c3ec-46f9-9660-a858a71dfe6f))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "U7") (unit 1)
         )
       )
@@ -2547,7 +2573,7 @@
     (pin "4" (uuid 4dab916e-5e25-4cf0-b9a5-b9657c82a382))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "SW1") (unit 1)
         )
       )
@@ -2572,8 +2598,8 @@
     (pin "1" (uuid 4021dcd3-3013-4e48-b1d1-20290c33705c))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0102") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -2597,8 +2623,8 @@
     (pin "1" (uuid f3d3d3b9-12b2-449f-9f78-613028531f32))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR098") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -2624,8 +2650,59 @@
     (pin "3" (uuid 546b5090-6b55-4fc5-950c-a6f95dbae5fb))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "JP1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "450301014042:450301014042") (at 67.31 177.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c7e3ed75-0d51-4620-992b-92eda2a63bf0)
+    (property "Reference" "S4" (at 83.82 179.07 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "450301014042" (at 83.82 181.61 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "wurth:450301014042" (at 83.82 175.26 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "http://docs-emea.rs-online.com/webdocs/126a/0900766b8126a6c7.pdf" (at 83.82 177.8 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Description" "Mini Slide Switch 10x2.5mm SPDT on / on Through Hole Slide Switch SPDT On-On 100 mA@ 42 V dc Slide" (at 83.82 180.34 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Height" "" (at 83.82 182.88 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Name" "Wurth Elektronik" (at 83.82 185.42 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Part_Number" "450301014042" (at 83.82 187.96 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Part Number" "710-450301014042" (at 83.82 190.5 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/450301014042/?qs=wr8lucFkNMW0uepaR4R%2Fww%3D%3D" (at 83.82 193.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Arrow Part Number" "" (at 83.82 195.58 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Arrow Price/Stock" "" (at 83.82 198.12 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid d869fcc9-b357-4c30-aa5f-b1ead26fff59))
+    (pin "2" (uuid 2fff7c69-a674-4940-ac69-e196e98edee2))
+    (pin "3" (uuid 08224c05-8059-4cf8-ba68-764eae39461c))
+    (instances
+      (project "fluidics-v2"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "S4") (unit 1)
         )
       )
     )
@@ -2650,7 +2727,7 @@
     (pin "2" (uuid 42e1afdb-3786-4f45-a314-91adda1db84a))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R33") (unit 1)
         )
       )
@@ -2676,7 +2753,7 @@
     (pin "2" (uuid 396c7db9-9743-48ad-9447-321ce416e37d))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R28") (unit 1)
         )
       )
@@ -2701,23 +2778,8 @@
     (pin "1" (uuid 94e4e823-ee38-4d74-8ac5-6e8fad81081f))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "#PWR061") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
-          (reference "#PWR067") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/1635dc22-cf85-48b0-a673-3d61b2a25da0"
-          (reference "#PWR072") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/863d1dad-a813-4142-8d73-a9c37b733ad1"
-          (reference "#PWR077") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/16736554-dbd7-4f94-9334-fd0e1d29f526"
-          (reference "#PWR082") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0104") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -2743,7 +2805,7 @@
     (pin "3" (uuid 82957c7f-97eb-42c2-b963-00cba17b43be))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "JP2") (unit 1)
         )
       )
@@ -2768,8 +2830,8 @@
     (pin "1" (uuid 29a78abf-c241-4511-ae42-581977795e1a))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0114") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -2794,7 +2856,7 @@
     (pin "2" (uuid e6daa9cf-d48d-4fa6-a4e0-493848e77f1f))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "R26") (unit 1)
         )
       )
@@ -2823,23 +2885,8 @@
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
           (reference "C3") (unit 1)
         )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "C7") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
-          (reference "C10") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/1635dc22-cf85-48b0-a673-3d61b2a25da0"
-          (reference "C14") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/863d1dad-a813-4142-8d73-a9c37b733ad1"
-          (reference "C18") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/16736554-dbd7-4f94-9334-fd0e1d29f526"
-          (reference "C22") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "C32") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -2863,8 +2910,8 @@
     (pin "1" (uuid 4464ea60-3f2a-4a2f-be28-fc7ad85f33f5))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0125") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -2914,8 +2961,33 @@
     (pin "3" (uuid f3b6c7bf-a555-439c-bb68-c413b36345c1))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
           (reference "S3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 67.31 177.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f409833f-21e2-42d0-b684-433d054d08a8)
+    (property "Reference" "#PWR0152" (at 67.31 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 67.31 172.72 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 67.31 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 67.31 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4952473a-1999-483a-b7a6-1f2f525da3dd))
+    (instances
+      (project "fluidics-v2"
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -2939,8 +3011,8 @@
     (pin "1" (uuid 23701971-ad4f-4075-8071-3893c44baf41))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR097") (unit 1)
+        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/357275dc-5cf4-43e0-a736-1f2f3e03e14a"
+          (reference "#PWR076") (unit 1)
         )
       )
     )

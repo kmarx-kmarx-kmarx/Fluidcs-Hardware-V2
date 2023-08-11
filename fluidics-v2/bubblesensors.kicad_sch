@@ -755,24 +755,6 @@
     (pin "1" (uuid a86aa0e7-1f9b-4fd3-bc81-3304c8b4ad25))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "#PWR061") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
-          (reference "#PWR067") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/1635dc22-cf85-48b0-a673-3d61b2a25da0"
-          (reference "#PWR072") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/863d1dad-a813-4142-8d73-a9c37b733ad1"
-          (reference "#PWR077") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/16736554-dbd7-4f94-9334-fd0e1d29f526"
-          (reference "#PWR082") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0118") (unit 1)
-        )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
           (reference "#PWR0131") (unit 1)
         )
@@ -804,24 +786,6 @@
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
           (reference "C3") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "C7") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
-          (reference "C10") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/1635dc22-cf85-48b0-a673-3d61b2a25da0"
-          (reference "C14") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/863d1dad-a813-4142-8d73-a9c37b733ad1"
-          (reference "C18") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/16736554-dbd7-4f94-9334-fd0e1d29f526"
-          (reference "C22") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "C32") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
           (reference "C38") (unit 1)
@@ -880,24 +844,6 @@
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
           (reference "C4") (unit 1)
         )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "C6") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
-          (reference "C9") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/1635dc22-cf85-48b0-a673-3d61b2a25da0"
-          (reference "C13") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/863d1dad-a813-4142-8d73-a9c37b733ad1"
-          (reference "C17") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/16736554-dbd7-4f94-9334-fd0e1d29f526"
-          (reference "C21") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "C31") (unit 1)
-        )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
           (reference "C37") (unit 1)
         )
@@ -926,9 +872,6 @@
     (pin "1" (uuid 78457946-e362-4bf3-8e28-c2a695d8076d))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0124") (unit 1)
-        )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
           (reference "#PWR0132") (unit 1)
         )
@@ -986,24 +929,6 @@
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
           (reference "C3") (unit 1)
         )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "C7") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
-          (reference "C10") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/1635dc22-cf85-48b0-a673-3d61b2a25da0"
-          (reference "C14") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/863d1dad-a813-4142-8d73-a9c37b733ad1"
-          (reference "C18") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/16736554-dbd7-4f94-9334-fd0e1d29f526"
-          (reference "C22") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "C32") (unit 1)
-        )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
           (reference "C38") (unit 1)
         )
@@ -1035,24 +960,6 @@
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
           (reference "C4") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/d7b863d6-5f12-44cd-bde4-b855914b9e05"
-          (reference "C6") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/99335419-826d-42f5-a9d5-c4099ab6472e"
-          (reference "C9") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/1635dc22-cf85-48b0-a673-3d61b2a25da0"
-          (reference "C13") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/863d1dad-a813-4142-8d73-a9c37b733ad1"
-          (reference "C17") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc/16736554-dbd7-4f94-9334-fd0e1d29f526"
-          (reference "C21") (unit 1)
-        )
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "C31") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
           (reference "C37") (unit 1)
@@ -1147,9 +1054,6 @@
     (pin "1" (uuid 524c6241-3ffc-4814-932b-068d0da5b279))
     (instances
       (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/a7f040d9-717f-4469-b42f-ffb37c9aa43f"
-          (reference "#PWR0124") (unit 1)
-        )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/978ef52c-7a59-4000-92fc-4e58ca2b1aa7"
           (reference "#PWR0132") (unit 1)
         )
