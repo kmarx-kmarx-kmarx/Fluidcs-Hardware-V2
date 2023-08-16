@@ -503,6 +503,18 @@
       "Manual Control"
     ],
     [
+      "e24edef9-66ab-4bf9-965f-6f56c8fd712a",
+      "I2C Active Pullup1"
+    ],
+    [
+      "b627bb7a-5c26-4d4a-8ee1-9b58f0107eeb",
+      "I2C Active Pullup2"
+    ],
+    [
+      "c92aed05-d6a3-4537-8c75-2189a3bda85b",
+      "I2C Active Pullup"
+    ],
+    [
       "40e657d1-9450-4917-aa0c-637ab5e93f67",
       "Syringe Pump"
     ],
