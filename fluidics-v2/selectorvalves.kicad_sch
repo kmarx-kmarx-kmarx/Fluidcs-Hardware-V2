@@ -1635,14 +1635,14 @@
     (property "Value" "1u" (at 29.21 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 28.9052 49.53 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 28.9052 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 27.94 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2178d2a2-1778-45d0-9e19-0f1dec05ec17))
-    (pin "2" (uuid b98c77c5-8f10-4f95-b052-80ec3a05ac41))
+    (pin "1" (uuid 4692e5df-5c1a-4933-b5c3-9c152b30da1f))
+    (pin "2" (uuid 6fb2e5a6-f04f-4b85-9732-477abe90b7fb))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -1729,8 +1729,8 @@
     (property "Datasheet" "~" (at 21.59 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2ad395a5-65f8-4bf8-8f0d-e2689d46f969))
-    (pin "2" (uuid cb604de9-67cc-4111-9999-33ff8d7bfdc7))
+    (pin "1" (uuid 60453d1e-2df0-437a-8c60-b382d65511b1))
+    (pin "2" (uuid 7346afbb-1491-4444-8003-77cb7fec6ed6))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"

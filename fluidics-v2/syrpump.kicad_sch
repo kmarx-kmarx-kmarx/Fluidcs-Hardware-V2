@@ -419,6 +419,12 @@
     (uuid ffd54d49-f323-42bf-b584-aca55516efe9)
   )
 
+  (rectangle (start 59.69 21.59) (end 149.86 100.33)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 547193cb-bbec-4e09-a935-5560a25019bb)
+  )
+
   (text "Convert from 3.3V UART to RS232" (at 87.63 95.25 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ff572d2c-799a-4b49-a763-75bf6cfd7c47)
@@ -562,7 +568,7 @@
     (property "Value" "1u" (at 95.25 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 94.9452 38.1 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 94.9452 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 93.98 34.29 0)
