@@ -1215,8 +1215,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ac335877-9b31-4bdd-a8b4-f7a543a6003a))
-    (pin "2" (uuid b5118972-bbad-468c-b500-2fdf10661ffa))
+    (pin "1" (uuid 8c283fe5-4f59-4430-aa4d-47109327fd16))
+    (pin "2" (uuid b7cb6b16-0094-47bc-8c40-eb8d0531841f))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -1252,8 +1252,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eed8ec1d-bd86-44e3-83fe-4ffd8114c86e))
-    (pin "2" (uuid 31f3a6c9-8505-4b19-bfa2-7d9a673ad847))
+    (pin "1" (uuid 97f003e8-ba79-4a15-8cb3-4752536b6c1a))
+    (pin "2" (uuid db3495b2-5593-4395-bf13-8aef27fab981))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -1289,8 +1289,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1c3684e2-5587-423e-a180-4ef7c050b9b9))
-    (pin "2" (uuid ade9a32a-e288-40f0-813c-4e90be20b238))
+    (pin "1" (uuid 849f3227-daa9-41fc-85d1-c467fb4a85c8))
+    (pin "2" (uuid 52059625-10cf-4eea-a5a0-0482ac151ef4))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -1308,7 +1308,7 @@
   (symbol (lib_id "Device:R") (at 147.32 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f35dec3-67ca-48b2-9269-d668b6551939)
-    (property "Reference" "R19" (at 147.32 138.2522 90)
+    (property "Reference" "R17" (at 147.32 138.2522 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 140.5636 90)
@@ -1326,12 +1326,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid afcd7751-2eb6-423d-857c-4e84e97818c6))
-    (pin "2" (uuid f5085723-1389-4436-852f-fabe39e2d3ee))
+    (pin "1" (uuid 83357681-4aaa-41ff-84e7-6483233bef0e))
+    (pin "2" (uuid cf8cf949-5852-4839-9774-1d8eb2b592f9))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R19") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1363,8 +1363,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 35cc81dc-8015-4dfe-bd32-deffe8327f78))
-    (pin "2" (uuid ec354c10-6d0a-4961-bc29-f5282bbfa8a2))
+    (pin "1" (uuid 3bfc1b77-b564-4ba0-bf20-b566655aa5f7))
+    (pin "2" (uuid 06aa1525-4ec6-400b-af91-d1d2d705582b))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -1382,7 +1382,7 @@
   (symbol (lib_id "Device:R") (at 147.32 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 110f1321-15cf-4e70-ad40-d24125a837e5)
-    (property "Reference" "R16" (at 147.32 109.0422 90)
+    (property "Reference" "R14" (at 147.32 109.0422 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 111.3536 90)
@@ -1400,12 +1400,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1ed9d238-fded-4893-8fef-9bc5f862608d))
-    (pin "2" (uuid 2a86a2ad-47f3-47f6-a009-4248610a96cc))
+    (pin "1" (uuid fbf5f240-eb90-4e6c-9763-a197035d6bc2))
+    (pin "2" (uuid 6c50b105-3008-4e84-9c24-fb8e118da633))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R16") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1419,7 +1419,7 @@
   (symbol (lib_id "Device:R") (at 147.32 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1368aca6-6dde-4948-af1c-370922da9389)
-    (property "Reference" "R12" (at 147.32 70.9422 90)
+    (property "Reference" "R10" (at 147.32 70.9422 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 73.2536 90)
@@ -1437,12 +1437,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9859a817-fec0-4537-87c6-129019c06bc8))
-    (pin "2" (uuid 977f356e-1360-4990-9016-b6ba2b303a63))
+    (pin "1" (uuid 0bb022dd-0f19-4431-b9af-e044ed41e9b5))
+    (pin "2" (uuid 570fe5cb-6bfe-4312-88dc-b6e4bde52bd4))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R12") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1474,8 +1474,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4d25ecb-16d3-4bdd-accf-56591691c0b2))
-    (pin "2" (uuid 593e56dc-a233-4361-a08f-00fd6eb5d529))
+    (pin "1" (uuid 2e465b1e-cb86-48e4-85ef-459874bf2bcd))
+    (pin "2" (uuid bf4aecfd-88db-4011-ab14-b0862b8a362c))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -1511,8 +1511,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2bdb1d7f-33f9-41a8-8392-7a523207c6bb))
-    (pin "2" (uuid ec47f6a5-7da4-4c4b-a553-66ea414d3952))
+    (pin "1" (uuid bafdfbe7-bd68-4c9d-828d-fd01dab962b9))
+    (pin "2" (uuid 62077973-5949-4d6e-9d90-16f2ccc275f1))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -1530,7 +1530,7 @@
   (symbol (lib_id "power:GND") (at 72.39 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40553955-1d3d-4391-b075-de4658c99067)
-    (property "Reference" "#PWR072" (at 72.39 86.36 0)
+    (property "Reference" "#PWR083" (at 72.39 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.39 85.09 0)
@@ -1542,11 +1542,11 @@
     (property "Datasheet" "" (at 72.39 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d7178f11-18d5-41c2-834c-64b2d34ac0ab))
+    (pin "1" (uuid 8f37ad4e-e647-49bf-8cf8-9a86e8be012d))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -1555,7 +1555,7 @@
   (symbol (lib_id "Device:R") (at 147.32 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4571dd15-4bfe-4afd-a765-f339ad534a9e)
-    (property "Reference" "R18" (at 147.32 128.0922 90)
+    (property "Reference" "R16" (at 147.32 128.0922 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 130.4036 90)
@@ -1573,12 +1573,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7597a6b5-81d2-47ec-9da9-c71536427391))
-    (pin "2" (uuid 536ded2f-7eb4-4789-aedf-a4cf3bc0f1c1))
+    (pin "1" (uuid ca1f6a3e-2e3d-404d-a5e6-6472d5ca1f61))
+    (pin "2" (uuid 58b31b84-29a4-4f4c-88ac-e92d7a4015c3))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R18") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1610,8 +1610,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 083a25ac-66fa-43d7-a8b5-fee373770a67))
-    (pin "2" (uuid 25af50c8-e3cf-4e24-90ff-a134ab6d6ecd))
+    (pin "1" (uuid 710fc965-c310-4e34-8157-3da3dd9ce185))
+    (pin "2" (uuid c9577da1-c14f-4755-af4d-5949bd0cd4ef))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -1629,7 +1629,7 @@
   (symbol (lib_id "Device:C") (at 27.94 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4906c681-5205-4a8b-bdfa-ec46dad3f1bf)
-    (property "Reference" "C5" (at 24.13 48.26 0)
+    (property "Reference" "C4" (at 24.13 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 29.21 48.26 0)
@@ -1641,12 +1641,12 @@
     (property "Datasheet" "~" (at 27.94 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4692e5df-5c1a-4933-b5c3-9c152b30da1f))
-    (pin "2" (uuid 6fb2e5a6-f04f-4b85-9732-477abe90b7fb))
+    (pin "1" (uuid 0f1aec2a-c299-4b4c-a542-b6d3386d5600))
+    (pin "2" (uuid 7aac562f-9279-433b-a285-af6c3be754b3))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "C5") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1655,7 +1655,7 @@
   (symbol (lib_id "power:+3.3V") (at 21.59 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c6cfe92-720c-4235-a14a-1102c09ac514)
-    (property "Reference" "#PWR069" (at 21.59 38.1 0)
+    (property "Reference" "#PWR080" (at 21.59 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 21.59 29.21 0)
@@ -1667,11 +1667,11 @@
     (property "Datasheet" "" (at 21.59 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b6c129ff-5349-49c7-adb3-4939c8f965ff))
+    (pin "1" (uuid 77c84242-a236-46e1-bc81-dc995944d77a))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -1680,7 +1680,7 @@
   (symbol (lib_id "Device:R") (at 147.32 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58cee55d-d571-4446-ac41-4bd965e80458)
-    (property "Reference" "R14" (at 147.32 89.9922 90)
+    (property "Reference" "R12" (at 147.32 89.9922 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 92.3036 90)
@@ -1698,12 +1698,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0c97d2fa-4adc-430a-ada0-da87086fa30d))
-    (pin "2" (uuid c87e3948-277c-4c81-95d9-52cb4d3298a1))
+    (pin "1" (uuid 11f0d015-ab11-43c4-98c4-d32c69bb2669))
+    (pin "2" (uuid f27a5e35-07cb-406a-b52c-a0065f6b09d3))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R14") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1717,7 +1717,7 @@
   (symbol (lib_id "Device:C") (at 21.59 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d3f0a0d-9ff8-4568-9b32-f7a74378ba5f)
-    (property "Reference" "C4" (at 17.78 40.64 0)
+    (property "Reference" "C3" (at 17.78 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 22.86 40.64 0)
@@ -1729,12 +1729,12 @@
     (property "Datasheet" "~" (at 21.59 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 60453d1e-2df0-437a-8c60-b382d65511b1))
-    (pin "2" (uuid 7346afbb-1491-4444-8003-77cb7fec6ed6))
+    (pin "1" (uuid b8a0d0c3-e438-4ce2-8a23-19205d0eab06))
+    (pin "2" (uuid 3bafe421-061f-49d5-a3ef-2dc1bff97712))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "C4") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1743,7 +1743,7 @@
   (symbol (lib_id "power:GND") (at 93.98 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e5562e7-38a9-4e00-938e-e44c691b7abf)
-    (property "Reference" "#PWR073" (at 93.98 50.8 0)
+    (property "Reference" "#PWR084" (at 93.98 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 49.53 0)
@@ -1755,11 +1755,11 @@
     (property "Datasheet" "" (at 93.98 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aef58b82-7aec-48c2-aa87-68f8c2e07a1e))
+    (pin "1" (uuid ed44aee9-8e42-447b-9765-8f6615ee36a7))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -1768,7 +1768,7 @@
   (symbol (lib_id "Device:R") (at 147.32 46.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69506b48-5448-4dbb-b1dc-3b96d16bea6b)
-    (property "Reference" "R9" (at 147.32 41.7322 90)
+    (property "Reference" "R7" (at 147.32 41.7322 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 44.0436 90)
@@ -1786,12 +1786,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6a3f7913-4a68-440a-8499-74344e160ff2))
-    (pin "2" (uuid 99d38043-3fb7-4d4c-8d89-d284235c789c))
+    (pin "1" (uuid c98c4f7a-6977-44ad-ab29-2b8795ff2044))
+    (pin "2" (uuid 1849ec3b-619e-4db0-bc88-d51bf05e89e5))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R9") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1805,7 +1805,7 @@
   (symbol (lib_id "power:+12V") (at 27.94 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e472caf-0842-4311-8181-16786bb41d0e)
-    (property "Reference" "#PWR071" (at 27.94 45.72 0)
+    (property "Reference" "#PWR082" (at 27.94 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 27.94 36.83 0)
@@ -1817,11 +1817,11 @@
     (property "Datasheet" "" (at 27.94 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 57fa7867-a120-40c7-87db-8b53ae632c68))
+    (pin "1" (uuid 3972a522-8dfc-449a-b3a5-13a3157628c8))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -1848,8 +1848,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 597e66af-4f5a-4013-a32b-a6ea724907a3))
-    (pin "2" (uuid 6662c5c9-1b7d-47b7-8a57-0a474f963717))
+    (pin "1" (uuid 8a671f25-48dc-4dc7-863f-a94793667363))
+    (pin "2" (uuid 55215720-0d55-44d5-91af-5f58e7e471ad))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -1867,7 +1867,7 @@
   (symbol (lib_id "Device:R") (at 147.32 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 751eefbc-16ad-41fe-8644-4f129ca96fb5)
-    (property "Reference" "R11" (at 147.32 60.7822 90)
+    (property "Reference" "R9" (at 147.32 60.7822 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 63.0936 90)
@@ -1885,12 +1885,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bccfc3c9-963b-423b-b2dc-23e204fb9545))
-    (pin "2" (uuid a497d6be-6520-470d-b89c-c520791d9741))
+    (pin "1" (uuid df7a89e0-e582-4d4a-ac2e-fcfc8ec8f7b7))
+    (pin "2" (uuid 83c5473e-0d22-49d1-9ea0-c1c184fce75f))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R11") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -1922,8 +1922,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3e36f3da-652b-4d2f-ad0f-06c9ac261fa3))
-    (pin "2" (uuid c28f70cc-48a3-41ae-af3a-128586312248))
+    (pin "1" (uuid f22006b8-0a1f-431b-b082-7360eb5c451d))
+    (pin "2" (uuid 00342be2-6717-412e-81cd-0147a9e7c362))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -1959,8 +1959,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2bd4bc3d-d8eb-410b-8a02-26350f8443d4))
-    (pin "2" (uuid e0d7bdec-4963-492a-825b-f973551905b3))
+    (pin "1" (uuid 1e73cf14-a533-40ef-b3cd-3f8da2cb228b))
+    (pin "2" (uuid 5edceaf3-7113-4a70-8948-673513a8db65))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -1978,7 +1978,7 @@
   (symbol (lib_id "Device:R") (at 147.32 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9169bf3f-5aec-48f9-85c5-e7ce38e8b6d3)
-    (property "Reference" "R8" (at 147.32 31.5722 90)
+    (property "Reference" "R6" (at 147.32 31.5722 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 33.8836 90)
@@ -1996,12 +1996,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3ca9109d-821c-49c8-9e0a-97838789f623))
-    (pin "2" (uuid e6854cc7-d359-4ad0-ba74-469245a3edf7))
+    (pin "1" (uuid ccf35fcd-e923-4678-95c8-c6291ea43ad1))
+    (pin "2" (uuid 742c7dc5-1b77-4ff9-a973-e4c2e4a7ff65))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R8") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -2015,7 +2015,7 @@
   (symbol (lib_id "Device:R") (at 147.32 163.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa978182-e7f3-4503-87b3-8d9fe42c7394)
-    (property "Reference" "R21" (at 147.32 158.5722 90)
+    (property "Reference" "R19" (at 147.32 158.5722 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 160.8836 90)
@@ -2033,12 +2033,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ea458043-a738-428b-affe-bd853b66baa8))
-    (pin "2" (uuid f9e13241-a199-492f-bbad-7d571ef38773))
+    (pin "1" (uuid dddc03d7-b19c-4c73-a4f8-c52832bec709))
+    (pin "2" (uuid b4306e82-98bc-4411-96bf-a990066039c8))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R21") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -2052,7 +2052,7 @@
   (symbol (lib_id "Device:R") (at 147.32 153.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b18af164-a4e4-4b5d-85fa-2dd885f3fecb)
-    (property "Reference" "R20" (at 147.32 148.4122 90)
+    (property "Reference" "R18" (at 147.32 148.4122 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 150.7236 90)
@@ -2070,12 +2070,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 52ee1b4b-998f-49a7-a631-607064df6abb))
-    (pin "2" (uuid 2caf9a03-1d94-4c2e-85c1-32098232de96))
+    (pin "1" (uuid 01768d85-7433-4284-805b-6caa99b9cb95))
+    (pin "2" (uuid bb572e23-916e-46ce-bf2c-91ace06bcf95))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R20") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -2089,7 +2089,7 @@
   (symbol (lib_id "power:+12V") (at 160.02 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2222137-cff7-4300-b165-0f45fac39495)
-    (property "Reference" "#PWR074" (at 160.02 40.64 0)
+    (property "Reference" "#PWR085" (at 160.02 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 160.401 33.5788 0)
@@ -2101,11 +2101,11 @@
     (property "Datasheet" "" (at 160.02 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fc94acf7-321d-4893-83c1-b33656a52403))
+    (pin "1" (uuid 7c1af5c0-ef0b-4811-88b2-8ace96b9f010))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -2137,8 +2137,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c042d086-6998-4c40-bbf6-17a46592af1e))
-    (pin "2" (uuid 85dcb56a-2ed3-473f-b6d0-8cfada8cb29a))
+    (pin "1" (uuid 4df5495c-7622-4267-8c80-da584bee725a))
+    (pin "2" (uuid 53395d6a-25a3-4e64-bb8c-05278b048a67))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -2174,8 +2174,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 14005ed9-c4ba-4d70-bede-ca60bd7f1c06))
-    (pin "2" (uuid 4f4f7e3e-b6e9-4f62-94d0-0c8b8008f7de))
+    (pin "1" (uuid 8c5e3195-531b-4ba1-b2b3-4ca0f8a3edf7))
+    (pin "2" (uuid 3628adda-3353-4155-ab54-9f4985361678))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -2193,7 +2193,7 @@
   (symbol (lib_id "Device:R") (at 147.32 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b80f180f-a249-4385-b3f0-743450d76f13)
-    (property "Reference" "R23" (at 147.32 176.3522 90)
+    (property "Reference" "R21" (at 147.32 176.3522 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 178.6636 90)
@@ -2211,12 +2211,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aa47d824-bb76-4dbb-bc09-b9ffd0e112d2))
-    (pin "2" (uuid 4f6fe526-cea5-424a-9323-66a54692c2c2))
+    (pin "1" (uuid 7dcec12a-a542-4b96-8ac1-94d4b24f72b1))
+    (pin "2" (uuid 1d6852db-2be8-4812-a7aa-10a87f07842b))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R23") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -2248,8 +2248,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1f61a17c-075a-4de2-85ec-8c61e7a47d28))
-    (pin "2" (uuid 7619ade9-b7fb-4402-be69-51776db4b967))
+    (pin "1" (uuid cb11f274-ae33-4d48-bd65-f65e3a3158f9))
+    (pin "2" (uuid da7be9e0-e5ed-47d3-b24b-43da3d587813))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -2267,7 +2267,7 @@
   (symbol (lib_id "Device:R") (at 147.32 172.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf82944a-03fe-4e35-a77a-e2a5906337e8)
-    (property "Reference" "R22" (at 147.32 167.4622 90)
+    (property "Reference" "R20" (at 147.32 167.4622 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 169.7736 90)
@@ -2285,12 +2285,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 919c7467-4b91-47f2-b6e7-24db4f88961c))
-    (pin "2" (uuid 51dd5a2b-b935-4c5b-a0c6-c818e163c888))
+    (pin "1" (uuid 992a7c91-2203-4cc1-99ee-841461f90e29))
+    (pin "2" (uuid a0f34650-0ffd-4a76-98a3-ae195c8c4aad))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R22") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -2304,7 +2304,7 @@
   (symbol (lib_id "Device:R") (at 147.32 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf849775-a705-4fc6-870e-750d774b0cd9)
-    (property "Reference" "R10" (at 147.32 50.6222 90)
+    (property "Reference" "R8" (at 147.32 50.6222 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 52.9336 90)
@@ -2322,12 +2322,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 37b8cb25-6928-4532-adab-2c1a1e122922))
-    (pin "2" (uuid 42e9d9cd-3bff-456c-9cf3-26e2d534e489))
+    (pin "1" (uuid d2dfabdf-1719-41fd-8db2-52c300ef492a))
+    (pin "2" (uuid 2cde5cc9-6dce-41c3-9659-7371bbdef72b))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R10") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -2341,7 +2341,7 @@
   (symbol (lib_id "power:GND") (at 21.59 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2c3272e-fd53-459f-8faa-3912088c9ce6)
-    (property "Reference" "#PWR070" (at 21.59 58.42 0)
+    (property "Reference" "#PWR081" (at 21.59 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 21.59 57.15 0)
@@ -2353,11 +2353,11 @@
     (property "Datasheet" "" (at 21.59 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 82a4d448-a152-4889-9f8a-3f726832257e))
+    (pin "1" (uuid 721863ea-1463-4660-89ce-b561962397f2))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -2366,7 +2366,7 @@
   (symbol (lib_id "Device:R") (at 147.32 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3b23ed2-a605-42e2-918e-f2326fb8c448)
-    (property "Reference" "R13" (at 147.32 81.1022 90)
+    (property "Reference" "R11" (at 147.32 81.1022 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 83.4136 90)
@@ -2384,12 +2384,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cdad4327-257e-4090-967c-9215bc5bce6c))
-    (pin "2" (uuid d9de34a1-8be5-4e19-9649-12621fc1d1f8))
+    (pin "1" (uuid f92526a0-2960-4781-bb3b-71b6b4e0cddd))
+    (pin "2" (uuid e1184218-23c3-4c67-b459-f1107305dca6))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R13") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -2421,8 +2421,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d4f215af-3b1c-4985-993d-916de3dcffa4))
-    (pin "2" (uuid 57769d22-2572-49b2-a5f3-5e0525a1edca))
+    (pin "1" (uuid 514380bd-b91a-4353-8339-d2aa8b91ef7e))
+    (pin "2" (uuid 98d83169-8301-485d-abed-c02649a32e0b))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -2458,8 +2458,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4520ec4c-e9c7-4b3f-9111-fb03833b3d81))
-    (pin "2" (uuid 63bc64e7-3355-40c3-bbf7-d197d9069668))
+    (pin "1" (uuid 747f43aa-48a0-4f3b-94cd-f96677f1cc2e))
+    (pin "2" (uuid 99c0927e-55cb-45b5-9347-45070b1e7d91))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -2477,7 +2477,7 @@
   (symbol (lib_id "Device:R") (at 147.32 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f12d04cb-2677-46c2-a717-c16dbb891acb)
-    (property "Reference" "R15" (at 147.32 98.8822 90)
+    (property "Reference" "R13" (at 147.32 98.8822 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 101.1936 90)
@@ -2495,12 +2495,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4db1784c-4320-4226-a4a3-1576a9c1299b))
-    (pin "2" (uuid aa2f438d-c490-4550-928a-fa21579ebab6))
+    (pin "1" (uuid 475e3e11-f2cb-4ee4-8ae8-e65541469228))
+    (pin "2" (uuid ef71f422-6ed7-4219-a240-a899bf64f291))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R15") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -2514,7 +2514,7 @@
   (symbol (lib_id "Device:R") (at 147.32 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f23d8ae5-6957-4ead-927f-68bc06420513)
-    (property "Reference" "R17" (at 147.32 119.2022 90)
+    (property "Reference" "R15" (at 147.32 119.2022 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 147.32 121.5136 90)
@@ -2532,12 +2532,12 @@
     (property "Manufacturer_Part_Number" "RC0402FR-073K3L" (at 147.32 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 15782270-299a-495d-ae66-044f811f593d))
-    (pin "2" (uuid f78b72b7-b257-484f-aeb0-8f8c91b81929))
+    (pin "1" (uuid 2819683a-cf37-4c22-9d7a-5b67cb5d89c6))
+    (pin "2" (uuid 0ae93d59-e5fe-46fb-8982-748145498f12))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
-          (reference "R17") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "fluidics - standalone"
@@ -2587,39 +2587,39 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/mcz33996ekr2/nxp-semiconductors" (at 83.82 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid c487691f-9fc7-4d84-94b0-904d294d292a))
-    (pin "10" (uuid 21927c27-01fb-4ef4-9ec9-ce71f39b94c9))
-    (pin "11" (uuid cec7e38f-7bc1-4e62-bcc1-8eff3071c93a))
-    (pin "12" (uuid e2a772af-2458-45cb-8f86-38b0922145b4))
-    (pin "13" (uuid c9912c5a-f78e-4da4-b145-1d275ac25698))
-    (pin "14" (uuid a88a86ca-4a63-4157-bd5f-a5121cf4f85f))
-    (pin "15" (uuid a0472fed-8069-4ade-93ed-b35552e1438e))
-    (pin "16" (uuid 41b7957a-f57f-4e7e-b13b-872cbe11d5d8))
-    (pin "17" (uuid a437b4cb-aaac-4450-a2f6-68c6afc6e4c4))
-    (pin "18" (uuid df0152a3-38c1-480a-849c-45fb4550a1ab))
-    (pin "19" (uuid 13e4a10e-44b4-44c7-9cb2-63ea6dda5874))
-    (pin "2" (uuid 739c0da1-13c0-4995-b04b-26367ed21008))
-    (pin "20" (uuid 1e43224e-518e-45d2-9d23-1a1b0cebf27a))
-    (pin "21" (uuid 15d0719a-585d-4386-8bb9-c9fdb3743153))
-    (pin "22" (uuid 8d04bd50-3411-474c-92a4-f8be7b524ca3))
-    (pin "23" (uuid 5bea5ad7-c0df-4643-81cf-e539ccc5d5c7))
-    (pin "24" (uuid 0aa9e1ca-0755-4842-9175-66930d4b1746))
-    (pin "25" (uuid 80bb5f2a-33a1-4c26-89a5-8fca9d881bc5))
-    (pin "26" (uuid a4f946ba-2ca4-4a71-a535-2f44db6190c7))
-    (pin "27" (uuid a836d9de-0cb5-4b25-9c90-d91214708102))
-    (pin "28" (uuid a8842863-b0d8-45ee-a241-97906d49308f))
-    (pin "29" (uuid a61274a5-3666-4ea1-843c-9517f5af5726))
-    (pin "3" (uuid dd2c5807-dba2-4aea-9c5d-3aa9eef10a3a))
-    (pin "30" (uuid 907a9f82-9299-46d5-8c6a-3e80f7435c2a))
-    (pin "31" (uuid b865ea61-285b-4d23-8fcc-499173d5e154))
-    (pin "32" (uuid 6bbde540-dc25-4b17-84e9-6f2c94f381f3))
-    (pin "33" (uuid c3d1940a-d39c-4b70-a554-961199e5367d))
-    (pin "4" (uuid 0926e2f6-ba3d-4618-921b-8bb111ea6bfd))
-    (pin "5" (uuid 0534db8c-f9a7-4d55-8779-73c724edbfae))
-    (pin "6" (uuid 4836b8ce-7718-4bdb-a1c5-f55ab9f06908))
-    (pin "7" (uuid fa1399b4-e683-4312-8e9b-d00f5f33a7f2))
-    (pin "8" (uuid 7a85ce05-b7dc-4714-9cfb-9ea4a2fd0576))
-    (pin "9" (uuid a62df03c-47cc-46c4-8313-4d049fe0d4ad))
+    (pin "1" (uuid 94102a58-592b-4e26-8a2a-1ad54aa8684a))
+    (pin "10" (uuid c307ba9c-b6de-40bf-a280-115d3b024869))
+    (pin "11" (uuid fb20cddd-ab3d-4725-a9a5-1f1bcf0c61ce))
+    (pin "12" (uuid 8d62dbeb-e926-48d8-8e6c-dbe74f52cb0e))
+    (pin "13" (uuid 061295a9-07b3-4a4d-bf3f-d667996a3b3a))
+    (pin "14" (uuid a2276e79-5866-487d-b2f2-98eb99bbc1a4))
+    (pin "15" (uuid bd9cecb9-b06f-4268-9421-472299981254))
+    (pin "16" (uuid f52d263d-4169-4cbc-9e74-58e06b23d707))
+    (pin "17" (uuid 4044bb85-41cd-445d-9b7f-d3e5d3f660ee))
+    (pin "18" (uuid 9034e3de-6262-4ed8-80b7-204c4e8f0b6e))
+    (pin "19" (uuid 10db4603-595a-4052-b223-c066b31b109e))
+    (pin "2" (uuid d12b909e-0e5d-4d03-b789-02cf39dbdd2c))
+    (pin "20" (uuid 6b484b68-a6a0-4ce5-9dd7-12d46003fb23))
+    (pin "21" (uuid 0632154b-dbdc-4bcc-a0fd-9c3e053b9544))
+    (pin "22" (uuid 5d373701-3354-4489-8051-3db799598d75))
+    (pin "23" (uuid 0672bed5-dc0e-4eab-a230-603a491af13f))
+    (pin "24" (uuid 6d9073bd-742a-4a79-a61c-745e4f7fcfdf))
+    (pin "25" (uuid 0e3179f7-d1ed-4a96-a6c5-ed8f72a7bea3))
+    (pin "26" (uuid 345570ba-f945-45d5-b953-0299a7a969ae))
+    (pin "27" (uuid e55e01d4-1bdf-49d7-bf2f-398506ef3c76))
+    (pin "28" (uuid 0d5c2945-aad4-43dd-b045-478055fef7e8))
+    (pin "29" (uuid 828fe7b0-eb38-47eb-be5f-e7f9bd187fe8))
+    (pin "3" (uuid 75d33b96-4aba-4d3e-a1c1-7897f46a4e7e))
+    (pin "30" (uuid 5c013b61-348a-4808-8e4d-e5d76dd1d162))
+    (pin "31" (uuid 6a1ab360-627e-45c7-82b1-6e26fcb550f8))
+    (pin "32" (uuid 5581a545-8b38-4784-913c-6999b4bd593b))
+    (pin "33" (uuid 0189c878-9b2b-4e96-b13c-0630438ca736))
+    (pin "4" (uuid bfa5bccb-686f-4607-88bc-cc9a62c6d61e))
+    (pin "5" (uuid dde16e9c-3bcd-4e48-8ead-0fdb390be9e0))
+    (pin "6" (uuid f490fb4f-773f-4288-ae67-b145e781d763))
+    (pin "7" (uuid bfedfa0a-8d65-447f-97b1-dd0aef9449e4))
+    (pin "8" (uuid f6bfe87c-535f-47db-8f45-e6bffc12601c))
+    (pin "9" (uuid 5f20eec3-6d7e-458b-9bdf-ed4146528ab4))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -2650,8 +2650,8 @@
     (property "Manufacturer_Part_Number" "LO Q976-PS-25-0-20-R18" (at 154.94 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eaa3f948-e248-44d4-9557-daf7673ff44e))
-    (pin "2" (uuid d2d3a99c-8529-4e00-9faa-a8baaa9c0458))
+    (pin "1" (uuid 004032a0-78b1-45e3-b648-3dc7ec84edd1))
+    (pin "2" (uuid e1de6425-3abb-441b-b06c-d8525912d4ff))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"

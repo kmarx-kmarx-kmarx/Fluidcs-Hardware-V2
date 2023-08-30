@@ -719,7 +719,7 @@
   (symbol (lib_id "power:GND") (at 224.79 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ee86ce4-07b4-4b62-befa-03f5e44221da)
-    (property "Reference" "#PWR0175" (at 224.79 69.85 0)
+    (property "Reference" "#PWR0159" (at 224.79 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 63.5 0)
@@ -735,7 +735,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "#PWR0175") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -744,7 +744,7 @@
   (symbol (lib_id "power:GND") (at 189.23 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e50a58b-ca40-4140-95bd-f7ebeecb83bd)
-    (property "Reference" "#PWR0181" (at 189.23 139.7 0)
+    (property "Reference" "#PWR0156" (at 189.23 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 138.43 0)
@@ -760,7 +760,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "#PWR0181") (unit 1)
+          (reference "#PWR0156") (unit 1)
         )
       )
     )
@@ -792,7 +792,7 @@
           (reference "C12") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "C39") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -824,7 +824,7 @@
           (reference "C11") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "C36") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -833,7 +833,7 @@
   (symbol (lib_id "power:+5V") (at 210.82 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3dfcb914-079b-4027-a64a-0d2b4ad43ef8)
-    (property "Reference" "#PWR0179" (at 210.82 127 0)
+    (property "Reference" "#PWR0157" (at 210.82 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 212.09 119.38 0)
@@ -849,7 +849,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "#PWR0179") (unit 1)
+          (reference "#PWR0157") (unit 1)
         )
       )
     )
@@ -858,13 +858,13 @@
   (symbol (lib_id "AD5624:AD5624RBRMZ-3") (at 160.02 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43856f93-436c-4357-b0bd-9d78c27b6dc4)
-    (property "Reference" "U16" (at 203.2 63.5 0)
+    (property "Reference" "U14" (at 203.2 63.5 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "AD5624RBRMZ-3" (at 203.2 66.04 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "RM_10_ADI" (at 160.02 73.66 0)
+    (property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm" (at 160.02 73.66 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "AD5624RBRMZ-3" (at 160.02 73.66 0)
@@ -883,7 +883,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "U16") (unit 1)
+          (reference "U14") (unit 1)
         )
       )
     )
@@ -915,7 +915,7 @@
           (reference "C11") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "C38") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -924,7 +924,7 @@
   (symbol (lib_id "power:GND") (at 210.82 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 633880e4-9018-4511-b100-0d78acafe3b7)
-    (property "Reference" "#PWR0180" (at 210.82 139.7 0)
+    (property "Reference" "#PWR0158" (at 210.82 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 138.43 0)
@@ -940,7 +940,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "#PWR0180") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
       )
     )
@@ -949,7 +949,7 @@
   (symbol (lib_id "power:GND") (at 181.61 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d584edb-6e3d-4132-9d1c-37d90d89fbbf)
-    (property "Reference" "#PWR0174" (at 181.61 85.09 0)
+    (property "Reference" "#PWR0155" (at 181.61 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 78.74 0)
@@ -965,7 +965,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "#PWR0174") (unit 1)
+          (reference "#PWR0155") (unit 1)
         )
       )
     )
@@ -974,7 +974,7 @@
   (symbol (lib_id "power:+5V") (at 256.54 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95b5b5a8-38b9-4071-b20f-5b3eaa224a8d)
-    (property "Reference" "#PWR0176" (at 256.54 67.31 0)
+    (property "Reference" "#PWR0160" (at 256.54 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 256.54 58.42 0)
@@ -990,7 +990,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "#PWR0176") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
       )
     )
@@ -1019,7 +1019,7 @@
           (reference "C4") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "C35") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -1028,7 +1028,7 @@
   (symbol (lib_id "power:+5V") (at 168.91 100.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4b799a8-3272-4742-9ea9-f8c5b6520500)
-    (property "Reference" "#PWR0177" (at 168.91 104.14 0)
+    (property "Reference" "#PWR0153" (at 168.91 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 168.91 95.25 0)
@@ -1044,7 +1044,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "#PWR0177") (unit 1)
+          (reference "#PWR0153") (unit 1)
         )
       )
     )
@@ -1087,7 +1087,7 @@
   (symbol (lib_id "power:GND") (at 175.26 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e91e7d40-e1f2-4e05-a05a-c56eee70067c)
-    (property "Reference" "#PWR0178" (at 175.26 106.68 0)
+    (property "Reference" "#PWR0154" (at 175.26 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 172.72 100.33 0)
@@ -1103,7 +1103,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "#PWR0178") (unit 1)
+          (reference "#PWR0154") (unit 1)
         )
       )
     )
@@ -1135,7 +1135,7 @@
           (reference "C12") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "C37") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -1144,13 +1144,13 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 210.82 128.27 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb0decd6-890c-42a7-9dda-543553124b69)
-    (property "Reference" "JP5" (at 213.36 129.54 90)
+    (property "Reference" "JP3" (at 213.36 129.54 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Bridged12" (at 213.36 127 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 210.82 128.27 0)
+    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels" (at 210.82 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 210.82 128.27 0)
@@ -1162,7 +1162,7 @@
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/41df25db-e2cd-4148-9d69-e83cb6b162f0"
-          (reference "JP5") (unit 1)
+          (reference "JP3") (unit 1)
         )
       )
     )

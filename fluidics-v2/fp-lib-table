@@ -39,4 +39,7 @@
   (lib (name "HSCDRRN001BDSA3")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/HSCDRRN001BDSA3")(options "")(descr ""))
   (lib (name "LTC")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/LTC4311CSC6#TRPBF/footprints.pretty")(options "")(descr ""))
   (lib (name "user-footprints")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/user-footprints")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/Library.pretty")(options "")(descr ""))
+  (lib (name "D36V28Fx")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/D36V28Fx.pretty")(options "")(descr ""))
+  (lib (name "5031492600")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/5031492600/5031492600.pretty")(options "")(descr ""))
 )

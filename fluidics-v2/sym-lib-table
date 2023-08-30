@@ -94,4 +94,6 @@
   (lib (name "HSCDRRN001BDSA3")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/HSCDRRN001BDSA3/HSCDRRN001BDSA3.kicad_sym")(options "")(descr ""))
   (lib (name "New_Library")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/AD5624/New_Library.kicad_sym")(options "")(descr ""))
   (lib (name "AD5624")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/user-symbols/AD5624.kicad_sym")(options "")(descr ""))
+  (lib (name "D36V28Fx")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/user-symbols/D36V28Fx.kicad_sym")(options "")(descr ""))
+  (lib (name "5031492600")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/5031492600/5031492600.kicad_sym")(options "")(descr ""))
 )

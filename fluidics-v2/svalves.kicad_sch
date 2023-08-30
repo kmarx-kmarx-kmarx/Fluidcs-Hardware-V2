@@ -647,8 +647,8 @@
     (property "Datasheet" "~" (at 58.42 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4cc57cd7-4345-4010-baff-9f849f9f6858))
-    (pin "2" (uuid fcbbd2ee-efdd-4f61-a938-e9fa7f6b4741))
+    (pin "1" (uuid 8f4fd286-6816-44b7-bd7b-7c2907d112d8))
+    (pin "2" (uuid 0a5b46d4-b5e7-4094-88cb-2832472eb3f6))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
@@ -658,7 +658,7 @@
           (reference "C?") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "C7") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -667,7 +667,7 @@
   (symbol (lib_id "power:+5V") (at 97.79 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04fae295-74b7-4295-a7fd-9961d4ef9fbf)
-    (property "Reference" "#PWR080" (at 97.79 43.18 0)
+    (property "Reference" "#PWR091" (at 97.79 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 97.79 34.29 0)
@@ -679,11 +679,11 @@
     (property "Datasheet" "" (at 97.79 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 04a3649d-044a-4700-9499-9f99a3f5439d))
+    (pin "1" (uuid 025a2db4-6092-4224-9077-7d51764fe5d3))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -692,7 +692,7 @@
   (symbol (lib_id "power:GND") (at 59.69 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21fe6ee8-a5b9-48d1-a17f-a67cdfd51bf9)
-    (property "Reference" "#PWR078" (at 59.69 53.34 0)
+    (property "Reference" "#PWR089" (at 59.69 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 52.07 0)
@@ -704,11 +704,11 @@
     (property "Datasheet" "" (at 59.69 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e9894e29-edec-482c-9790-ac76c467fe2a))
+    (pin "1" (uuid bd3ad98b-cc8e-4381-992b-13048f2f3999))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -753,14 +753,14 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/adum1250wsrz-rl7/analog-devices" (at 88.9 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid e123e26d-d1cc-4241-9be4-0e0843381ab3))
-    (pin "2" (uuid e00ad94a-63b7-4676-a5a0-dc4959ffc4b5))
-    (pin "3" (uuid 67a5b944-0211-488e-b7f7-87f420dbdafa))
-    (pin "4" (uuid 369ad717-0de3-47cf-989e-e0d762acfcbd))
-    (pin "5" (uuid 35321556-f7d5-40f4-b89b-781d0e6b5a38))
-    (pin "6" (uuid eb979c14-2528-467e-952b-2d87ad354db5))
-    (pin "7" (uuid beb1b91f-dcb6-4069-87bd-1ea644c260b5))
-    (pin "8" (uuid 8efd3737-f7e0-4da7-87e2-b5c266098a5b))
+    (pin "1" (uuid eda9b7d0-2a6a-40b7-a6ad-c679b94914f7))
+    (pin "2" (uuid d2f9e4ea-dd8f-4c6e-b862-94d605154b85))
+    (pin "3" (uuid 93802b65-5b93-4754-9888-48b35aa3c20c))
+    (pin "4" (uuid 6a93bdca-e8e0-4d36-86b9-b034aa5cdf3c))
+    (pin "5" (uuid a0b42a15-8045-479e-8aa5-00cc4080b25e))
+    (pin "6" (uuid d0985d64-8dd0-4204-9ea0-dc924eb1a7fa))
+    (pin "7" (uuid 31ea7417-e213-4bc9-98f8-51a8160c03c2))
+    (pin "8" (uuid a34b470d-e445-4da1-a220-e68b49f6e04b))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
@@ -785,15 +785,15 @@
     (property "Datasheet" "~" (at 49.53 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9aa97f00-6f41-4385-b6e6-05ea8b9ea358))
-    (pin "2" (uuid 74625281-8d61-4586-8dc8-110d3d0bbfcf))
+    (pin "1" (uuid b8284432-0056-4c09-8205-213dfe08306f))
+    (pin "2" (uuid 5075f4cb-868f-49dc-b4cb-cd0dd516d527))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
           (reference "C?") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "C6") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -814,15 +814,15 @@
     (property "Datasheet" "~" (at 128.27 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 67d2a2f8-776f-482f-b4aa-7d0cd32bfe7c))
-    (pin "2" (uuid a1799ee4-5b63-46d3-9deb-700ab286161f))
+    (pin "1" (uuid 89b81378-b748-4088-bb0d-eaefb9d9870e))
+    (pin "2" (uuid 7e992b05-572f-48b8-afab-e79fae8f98d5))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0"
           (reference "R?") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "R25") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -831,7 +831,7 @@
   (symbol (lib_id "power:+5V") (at 124.46 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6aac24f9-1b29-422e-b8a7-f58688689adb)
-    (property "Reference" "#PWR082" (at 124.46 50.8 0)
+    (property "Reference" "#PWR093" (at 124.46 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 124.46 41.91 0)
@@ -843,11 +843,11 @@
     (property "Datasheet" "" (at 124.46 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3bd8f06a-e2aa-464c-98d8-d38ca5afa138))
+    (pin "1" (uuid d4896698-8821-4cb1-aa4a-dae42d4f2440))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -856,7 +856,7 @@
   (symbol (lib_id "power:GND") (at 97.79 46.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 731748b3-cd5a-41b2-8b94-60d9d4cca36b)
-    (property "Reference" "#PWR081" (at 97.79 53.34 0)
+    (property "Reference" "#PWR092" (at 97.79 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 52.07 0)
@@ -868,11 +868,11 @@
     (property "Datasheet" "" (at 97.79 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9f51f921-63f7-4278-87f1-8b7b8ad76ce5))
+    (pin "1" (uuid f0599282-3487-4d56-9b10-ea92de7731be))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -881,7 +881,7 @@
   (symbol (lib_id "power:+3.3V") (at 59.69 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b1f74bf-c2cc-42af-a580-81ac502b144f)
-    (property "Reference" "#PWR077" (at 59.69 43.18 0)
+    (property "Reference" "#PWR088" (at 59.69 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 59.69 34.29 0)
@@ -893,11 +893,11 @@
     (property "Datasheet" "" (at 59.69 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f3cfd4f4-1177-4a11-b2f3-3cf96dc775b9))
+    (pin "1" (uuid bc4f12e6-44c2-404b-8a84-57fd629deb9a))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -918,15 +918,15 @@
     (property "Datasheet" "~" (at 59.69 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3d28f348-b9e0-494c-8257-701e87dddef7))
-    (pin "2" (uuid a055ea97-5bd2-4833-8417-0ad4f66dd4d5))
+    (pin "1" (uuid d8905652-78a4-4a88-80f8-ddedd045887f))
+    (pin "2" (uuid 6740306f-945f-42a7-af70-abbc8be2b11e))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
           (reference "C?") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "C8") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -935,7 +935,7 @@
   (symbol (lib_id "power:+5V") (at 128.27 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a60edef8-7a41-4471-adc2-edf16eaa1705)
-    (property "Reference" "#PWR083" (at 128.27 53.34 0)
+    (property "Reference" "#PWR094" (at 128.27 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 128.27 44.45 0)
@@ -947,11 +947,11 @@
     (property "Datasheet" "" (at 128.27 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0217b1e2-87d4-4b32-aff2-eb31256affe3))
+    (pin "1" (uuid 02f7d0a2-cd5b-4cd0-b1fd-cb8830168a21))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -960,7 +960,7 @@
   (symbol (lib_id "power:+5V") (at 58.42 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aea2dabe-9432-4d06-b405-b3adea98de45)
-    (property "Reference" "#PWR075" (at 58.42 83.82 0)
+    (property "Reference" "#PWR086" (at 58.42 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 58.42 74.93 0)
@@ -972,11 +972,11 @@
     (property "Datasheet" "" (at 58.42 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8cc503cb-ab82-437f-93be-be6a9459faf3))
+    (pin "1" (uuid b4b51265-4069-42f5-a1b8-96700b0f9c38))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -997,15 +997,15 @@
     (property "Datasheet" "~" (at 97.79 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dee31db0-3ee2-4fb9-925a-0d3b156378f2))
-    (pin "2" (uuid 97b8c59e-c62f-49e2-9108-978eb4824135))
+    (pin "1" (uuid 7c00ddab-639d-4e90-9cf2-76113d35d38a))
+    (pin "2" (uuid e6c328af-8d89-4880-888d-1d94f602d8aa))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
           (reference "C?") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "C9") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1026,15 +1026,15 @@
     (property "Datasheet" "~" (at 124.46 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 56a6a1b1-4849-48e6-b998-40fdb1f6795d))
-    (pin "2" (uuid 9175f379-bcb5-446f-877b-e48aedfe9327))
+    (pin "1" (uuid 1b48b5b1-3f63-4730-a0e6-b6c1e3645285))
+    (pin "2" (uuid 2c45a759-bba5-4603-a907-328ebfa9c82e))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0"
           (reference "R?") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "R24") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -1043,7 +1043,7 @@
   (symbol (lib_id "power:GND") (at 58.42 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6449987-e0cc-4b64-8187-1ef38ec0a194)
-    (property "Reference" "#PWR076" (at 58.42 95.25 0)
+    (property "Reference" "#PWR087" (at 58.42 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 58.42 93.98 0)
@@ -1055,11 +1055,11 @@
     (property "Datasheet" "" (at 58.42 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd546766-ef64-4b43-b3c8-b236a1c10951))
+    (pin "1" (uuid d60e5c5d-d0a8-433b-a211-283a934a2fd9))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -1068,7 +1068,7 @@
   (symbol (lib_id "power:GND") (at 78.74 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b74e0852-859c-4ec3-aba1-cdde138a0880)
-    (property "Reference" "#PWR079" (at 78.74 71.12 0)
+    (property "Reference" "#PWR090" (at 78.74 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 69.85 0)
@@ -1080,11 +1080,11 @@
     (property "Datasheet" "" (at 78.74 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9c56d344-49e1-49fe-a55a-8e21c8a90d1e))
+    (pin "1" (uuid 0395d95c-25c3-4325-9be3-c44666ac306b))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -1093,7 +1093,7 @@
   (symbol (lib_id "LTC4311CSC6#TRPBF:LTC4311CSC6-TRPBF") (at 77.47 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c682454c-c9ea-46fe-94a3-03266b35ee3b)
-    (property "Reference" "U7" (at 78.886 76.2 0)
+    (property "Reference" "U6" (at 78.886 76.2 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "LTC4311CSC6-TRPBF" (at 78.886 78.74 0)
@@ -1105,16 +1105,16 @@
     (property "Datasheet" "LTC4311CSC6-TRPBF" (at 77.47 85.09 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 5d7679ea-2f19-4d51-88bb-33e7d373e675))
-    (pin "2" (uuid 8abd0c93-f067-48b1-b6ca-a7920fff6b9f))
-    (pin "3" (uuid bce84794-fec5-45a1-a932-98bcb6085fe0))
-    (pin "5" (uuid aec17ec2-fb92-4b67-b3cc-8d2f7038fd44))
-    (pin "4" (uuid f9e11905-0760-4b0c-9169-388dfc7b63d2))
-    (pin "6" (uuid 8b54ebe0-8ba7-4f0f-b325-fc2b515cb5e9))
+    (pin "1" (uuid 080946c9-6864-47d9-a112-26fda5b0ac78))
+    (pin "2" (uuid fa3c67e0-64bd-415c-ae5e-31f9cb870a1c))
+    (pin "3" (uuid 82077735-c45e-4aec-8bd4-f309df98c564))
+    (pin "5" (uuid e4b37ef4-897a-4651-b5f1-fc5edadbc11c))
+    (pin "4" (uuid 5b97dccc-bdb6-4808-a926-9ff6fbcaa842))
+    (pin "6" (uuid b730f023-9aa2-44b5-bb2c-9b4077fa59ec))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "U7") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -1135,15 +1135,15 @@
     (property "Datasheet" "~" (at 107.95 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 38f9a43d-7d0f-4fd2-90c1-8a747960dec2))
-    (pin "2" (uuid a61d001d-ddab-4403-a586-8cfda42ce555))
+    (pin "1" (uuid 87d16851-6549-4920-8391-98b04e0787c0))
+    (pin "2" (uuid cdb80fe8-2e03-4fd7-8bff-37d732c86179))
     (instances
       (project "fluidics-v2"
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/c1c30de3-a3db-48df-8d6b-b2f91b9251f0"
           (reference "C?") (unit 1)
         )
         (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/7edd626f-fd99-40ee-aab3-2aaadfd0b2bc"
-          (reference "C10") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
