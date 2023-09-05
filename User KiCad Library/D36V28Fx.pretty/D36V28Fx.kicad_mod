@@ -52,7 +52,7 @@
   (zone (net 0) (net_name "") (layers "F.Cu" "Dwgs.User") (tstamp b7fe2c06-bc28-4303-b69b-91bd207b58b5) (hatch edge 0.5)
     (connect_pads (clearance 0))
     (min_thickness 0.25) (filled_areas_thickness no)
-    (keepout (tracks allowed) (vias allowed) (pads not_allowed) (copperpour allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour allowed) (footprints not_allowed))
     (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
     (polygon
       (pts
