@@ -44,4 +44,5 @@
   (lib (name "5031543090")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/5031543090/5031543090.pretty")(options "")(descr ""))
   (lib (name "0705430004")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/0705430004/0705430004.pretty")(options "")(descr ""))
   (lib (name "0522712079")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/0522712079/0522712079.pretty")(options "")(descr ""))
+  (lib (name "B6B-ZR-SM4-TF")(type "KiCad")(uri "/home/octopi-codex/Documents/kmarx/fluidics-controller-2-hardware/User KiCad Library/B6B-ZR-SM4-TF.pretty")(options "")(descr ""))
 )

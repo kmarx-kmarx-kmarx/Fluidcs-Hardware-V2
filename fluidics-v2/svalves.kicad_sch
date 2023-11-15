@@ -585,7 +585,7 @@
     (uuid e3804cdb-4434-4627-83ac-909e299ac55e)
   )
 
-  (rectangle (start 45.72 72.39) (end 111.76 96.52)
+  (rectangle (start 45.72 72.39) (end 133.35 96.52)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 6e351083-e397-4f67-a5c6-fffd3eb34d7f)
@@ -605,8 +605,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 011a8510-135b-439c-a4ae-467601bad89e)
   )
-  (text "Active Pullup - increase number of devices \nconnected at once and length of cable"
-    (at 62.23 93.98 0)
+  (text "Active Pullup - increase number of devices \nconnected at once and length of cable\nDNP this IC and check the signal integrity - only install if necessary"
+    (at 63.5 95.25 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0bf44994-d9b0-4adf-8d6b-10da21d8d277)
   )

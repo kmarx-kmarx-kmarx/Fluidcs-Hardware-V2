@@ -1240,6 +1240,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fa766702-80e2-4a7b-a7d9-ec1b9a408399)
   )
+  (text "Use solder jumpers to set the address\nDefault = 0x74"
+    (at 217.17 106.68 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ffb82fdc-8a1d-4427-a39a-601a1bd367b6)
+  )
 
   (label "SW6" (at 144.78 104.14 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
