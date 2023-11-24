@@ -1,0 +1,76 @@
+OFF-BOARD DEVICES AND CONNECTORS,,,,,,
+Id,Designator,Quantity Per PCB,Part Number,Value,Footprint,Notes
+,N/A,1,SLF3S-0600F,N/A,N/A,Flowrate sensor
+,N/A,4,"""0151340602""",N/A,N/A,"Connect flowrate or other I2C device to J15, J20, J23, J17. Only one necessary if connecting only one off-board I2C device"
+,N/A,2,OCB350L062Z,N/A,N/A,Bubble sensor
+,N/A,2,A06ZR06ZR28H152B,N/A,N/A,"Connects bubble sensor to J2, J4"
+,N/A,5,MLP778-605,N/A,N/A,IDEX selector valve
+,N/A,10,"""0511101060""",N/A,N/A,"2 per selector valve, for I2C connection, connects to J21,18,14,12,10"
+,N/A,15,"""0797581095""",N/A,N/A,"3 wires per selector valve, for I2C connection, connects to J21,18,14,12,10"
+,N/A,10,"""050579""0""0402""""""",N/A,N/A,"2 per selector valve, for 24V power, connects to J22,19,16,13,11"
+,N/A,10,"""0797580011""",N/A,N/A,"2 wires per selector valve, for 24V power, connects to J22,19,16,13,11"
+,N/A,1,Kamoer KSY-30,N/A,N/A,"Syringe pump, implementation in progress"
+,N/A,1,H7SSH-1506M-ND,N/A,N/A,Cable for connecting to syringe pump
+,N/A,2,"""050579205""",N/A,N/A,"Bring power (gnd, 3V3, 5V, 12V, 24V) off board. Connects to J8"
+,N/A,5,"""0797580011""",N/A,N/A,"Bring power (gnd, 3V3, 5V, 12V, 24V) off board. Connects to J8"
+,N/A,1,"""0152670366""",N/A,N/A,"FPC cable brings GPIO, IO busses off-board. Connects to J9"
+,,,,,,
+COMPONENTS ON PCB,,,,,,
+Designator,Footprint,Quantity,Value,LCSC Part #,,
+"C1, C2","""0603""",2,1u,,,
+"C10, C15, C16, C17, C19, C20, C21, C22, C3, C30, C31, C32, C33, C34, C5, C9","""0603""",16,0.1u,,,
+"C11, C18, C23, C24, C35, C36, C37, C38, C39, C4, C7, C8","""0805""",12,1u,,,
+"C12, C13, C14, C6","""0603""",4,0.01u,,,
+D1,"""0805""",1,LED,C72035,,
+"D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D5, D6, D7, D8, D9","""0603""",16,LED,C72038,,
+"D2, D3","""0805""",2,LED,C73546,,
+D21,D_SMC,1,B340-13-F,,,
+D4,"""0805""",1,LED,C83960,,
+IC1,SOP65P1030X265-33N,1,MCZ33996EKR2,,,
+IC2,SOIC127P600X175-8N,1,ADUM1250WSRZ-RL7,,,
+"IC3, IC4, IC5, IC6",HSCDRRN001BDSA3,4,HSCDRRN001BDSA3,,,
+J1,CUI_PJ-063AH,1,PJ-063AH,C2928097,,
+"J10, J12, J14, J18, J21",878321010,5,87832-1010,,,
+"J11, J13",SHDR2W64P0X254_1X2_737X660X1181P,2,705430001,C5349069,,
+"J15, J17, J20, J23",MOLEX_0533980671,4,533980671,,,
+"J16, J19, J22",SHDR2W64P0X254_1X2_737X660X1181P,3,705430001,,,
+"J2, J4",CONN_B6B-ZR-SM4-TF_JST,2,B6B-ZR-SM4-TF,,,
+J3,ADS15AKGT4S,1,A-DS_15_A_KG-T4S,C3100941,,
+J5,1860280,1,1860280,,,
+J6,DIP-28_W15.24mm_Socket,1,Conn_02x14_Counter_Clockwise,,,
+J7,PinHeader_2x03_P2.54mm_Vertical,1,Conn_02x03_Odd_Even,,,
+J8,70543-0039_MOL,1,705430039,C588438,,
+J9,CON_522712079_MOL,1,522712079,C588186,,
+"R1, R48","""0603""",2,0,,,
+"R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R6, R7, R8, R9","""0402""",16,3.3k,,,
+R2,"""0603""",1,20k,,,
+"R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44","""0402""",23,10k,,,
+R3,"""0603""",1,5.6k,,,
+"R4, R51, R52","""0603""",3,47k,,,
+R45,"""0603""",1,976k,,,
+R46,"""0603""",1,DNP,,,
+R47,"""0603""",1,102k,,,
+"R49, R50, R53, R54, R55, R56, R57, R58, R59","""0402""",9,4.7k,,,
+R5,"""0603""",1,3k,,,
+"S1, S4",2106MS,2,210-6MS,,,
+"S2, S3",450301014042,2,450301014042,,,
+SW1,SW4_D6C90F1LFS_CNK,1,D6C90F1LFS,,,
+"U10, U8, U9",SOT-6_SC_LIT,3,LTC4311CSC6-TRPBF,,,
+U11,SOP65P640X120-16N,1,MAX3221,,,
+U12,D16,1,CD4050BDR,,,
+U13,SOT-363 US6_TOS,1,TC7PZ17FU,,,
+U16,MSOP-10_MS_LIT,1,LTC4316CMS-TRPBF,,,
+U3,SOT-23-5,1,AP7366EA-33W5-7,,,
+U4,D24V10FX,1,D24V10FX,,,
+U5,D36V28Fx,1,~,,,
+U6,SOT-6_SC_LIT-L,1,LTC4311CSC6-TRPBF,,,
+U7,PW24,1,TCA9539PWR,,,
+VR1,PTV09A4015FB103,1,"PTV09A-""0402""0U-B103",,,
+U2,N/A,1,DEV-16996,,,
+"U2a, U2b",SSM-124-L-SV,2,SSM-124-L-SV,,,
+U1,N/A,1,UEKA0300000A,,,
+U1a,M50-3030542,1,M50-3030542,,,
+U1b,M50-3030442,1,M50-3030442,,,
+U1c,M50-3031042,1,M50-3031042,,,
+M1,N/A,1,UBLB5401200A,,,
+"M1a, M1b",9774050243R,2,9774050243R,,,
